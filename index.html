@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/index.css" />
         <link rel="stylesheet" href="css/dev.css" />
+        <link rel="stylesheet" href="css/logo.css" />
         <title>Paradox'22</title>
     </head>
     <body>
@@ -14,12 +15,13 @@
             <div class="hero-body">
                 <div class="columns" style="width: 100%;">
                     <div class="column is-two-fifths">
-                        <img src="media/Paradox-Logo-V2-720px .png" class="image" />
+                        <div id="tsparticles"></div>
                     </div>
-                    <div class="column">
-                        <div class="container has-text-centered">
-                            <h1 class="title is-1">Welcome to</h1>
-                            <p class="subtitle is-1">Paradox'22</p>
+                    <div class="column is-flex">
+                        <div class="container has-text-centered is-align-self-center">
+                            <p class="title is-3">Welcome to</p>
+                            <h1 class="title is-1 mb-6">Paradox '22</h1>
+                            <p class="subtitle is-4">The World's First Online Degree Festival</p>
                         </div>
                     </div>
                 </div>
@@ -30,22 +32,19 @@
                     <div class="container">
                         <ul>
                             <li class="is-active">
-                                <a>Overview</a>
+                                <a>About</a>
                             </li>
                             <li>
-                                <a>Modifiers</a>
+                                <a>Events</a>
                             </li>
                             <li>
-                                <a>Grid</a>
+                                <a>Contact</a>
                             </li>
                             <li>
-                                <a>Elements</a>
+                                <a>Gallery</a>
                             </li>
                             <li>
-                                <a>Components</a>
-                            </li>
-                            <li>
-                                <a>Layout</a>
+                                <a>Team</a>
                             </li>
                         </ul>
                     </div>
@@ -87,13 +86,13 @@
             </div>
         </nav> -->
 
-        <main>
-
-        </main>
-
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-        <!-- <script src="https://www.gstatic.com/firebasejs/9.8.1/firebase-app.js"></script> -->
+        <script src="https://cdn.jsdelivr.net/npm/tsparticles-engine"></script>
+        <script src="https://cdn.jsdelivr.net/npm/tsparticles/tsparticles.bundle.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/jquery-particles"></script>
+        <!-- <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-auth.js"></script>
+        <script src="js/init.js"></script> -->
         <script src="js/index.js"></script>
-        <script src="js/init.js" type="module"></script>
     </body>
 </html>

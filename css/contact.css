@@ -97,8 +97,12 @@ h1 {
     display: inline-flex;
 }
 
+.mobile {
+    display: none;
+}
+
 @media(max-width: 768px) {
-    .grid {
+    /* .grid {
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -120,5 +124,20 @@ h1 {
     .card-body img {
         width: 275px;
         height: 275px;
+    } */
+    .desktop {
+        display: none;
+    }
+    .mobile {
+        display: block;
+        justify-content: center;
+        margin: 0 auto;
+        color: white;
+    }
+    .mobile h3 {
+        font-size: large;
+    }
+    .mobile .flex h2 {
+        font-size: 2em;
     }
 }

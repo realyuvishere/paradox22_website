@@ -1,0 +1,124 @@
+body {
+    background-color: #181c24;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 0;
+}
+
+.flex {
+    justify-content: space-around;
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* margin-top: 3rem; */
+}
+
+h1 {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2em;
+    letter-spacing: 2px;
+    line-height: 5rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1.165fr 1fr 1fr;
+    gap: 1.5rem;
+    margin-top: 7rem;
+}
+
+.card {
+    cursor: pointer;
+    position: relative;
+    min-width: 100px;
+    min-height: 360px;
+    background-color: transparent;
+    text-align: center;
+    color: white;
+}
+
+.card-body {
+    position: absolute;
+}
+
+.card-body h2 {
+    color: white;
+}
+
+.top {
+    top: 0;
+}
+
+.bottom {
+    bottom: 0;
+}
+
+.modal-content {
+    width: 100%;
+}
+
+.modal-content {
+    background-color: transparent;
+    color: white;
+}
+
+.modal-content h3 {
+    font-size: large;
+}
+
+.profile-card {
+    display: inline-block;
+    padding: 30px 30px 30px 30px;
+}
+
+.profile-card img {
+    height: 125px;
+    width: 125px;
+    display: block;
+}
+
+.profile-card h3,
+.profile-card ul {
+    display: block;
+}
+
+.socials {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.socials li {
+    display: inline-flex;
+}
+
+@media(max-width: 768px) {
+    .grid {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 15px auto;
+    }
+    .card {
+        flex-wrap: wrap;
+        margin: 15px auto;
+        justify-content: center;
+        width: 80%;
+    }
+    .card-body {
+        position: relative;
+    }
+    .top,
+    .bottom {
+        margin: auto;
+    }
+    .card-body img {
+        width: 275px;
+        height: 275px;
+    }
+}

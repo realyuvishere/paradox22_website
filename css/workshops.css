@@ -46,9 +46,13 @@ body,
 .header {
     display: flex;
     justify-content: center;
+    padding-top: 130px;
     height: 90vh;
-    color: #14085e;
-    background-image: linear-gradient( to right top, #14085e, #352c7b, #524e97, #7171b4, #9296d0, #b6a5d8, #d3b7df, #eccae7, #fbd0da, #fed9d2, #f8e5d4, #f2efde);
+    color: #F2EFDE;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #121410;
+    text-shadow: 6px 6px #C1C9F5;
+    /* background-image: linear-gradient(to right top, #121410, #031c15, #002229, #002645, #002156, #202b65, #383474, #4e3e83, #74689f, #9c93ba, #c5c1d5, #f0f0f0); */
 }
 
 header>h1 {
@@ -96,6 +100,7 @@ header>h1 {
     }
     .header h1 {
         font-size: 3em;
+        text-shadow: 3px 3px #C1C9F5;
     }
 }
 

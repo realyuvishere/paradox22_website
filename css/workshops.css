@@ -72,6 +72,33 @@ header>h1 {
     max-width: 70%;
 }
 
+@media(max-width:768px) {
+    .section {
+        padding: 0px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .section-body {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+        text-align: center;
+    }
+    .section-body p {
+        font-size: 0.9em;
+        line-height: 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .section-img {
+        display: none;
+    }
+    .header h1 {
+        font-size: 3em;
+    }
+}
+
 .section-body>h3 {
     margin-left: 40px;
 }

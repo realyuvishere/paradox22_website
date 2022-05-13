@@ -166,9 +166,10 @@ if (window.matchMedia("(min-width: 1200px)").matches) {
         } else {
             click = true
             tl.add('emid').to(one, .5, {
-                right: '0%',
+                top: '0',
+                right: '0',
                 opacity: '1',
-                display: 'inherit'
+                display: 'block'
             }, 'emid')
             tease.innerHTML = "CLOSE TEASER"
         }

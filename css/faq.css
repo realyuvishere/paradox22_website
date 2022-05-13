@@ -1,0 +1,93 @@
+body {
+    background-color: #121410;
+    color: #F2EFDE;
+}
+
+header {
+    min-height: 100vh;
+    max-height: 100vh;
+    background-color: #121410;
+    color: #F0F0F0;
+    position: relative;
+}
+
+header>h1 {
+    transform: rotate(270deg);
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    font-size: 8em;
+    color: #F0F0F0;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+header>h3 {
+    position: absolute;
+    top: 35%;
+    left: 33%;
+    font-size: 3em;
+    color: #f0f0f0;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.faq-container {
+    max-width: 90%;
+    padding: 20px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.faq {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.acc-btn {
+    color: #F2EFDE;
+    width: 100%;
+    padding: 1.6rem 2rem;
+    font-size: 1.6rem;
+    cursor: pointer;
+    background: inherit;
+    border: none;
+    outline: none;
+    text-align: left;
+    transition: all 0.5s linear;
+}
+
+.acc-btn:after {
+    content: "+";
+    color: #C1C9F5;
+    float: right;
+    transition: all 0.3s linear;
+    font-size: 2rem;
+}
+
+.acc-btn.is-open:after {
+    content: "-";
+    color: #C1C9F5;
+    float: right;
+    transition: all 0.3s linear;
+    font-size: 2rem;
+    /* transform: rotate(90deg); */
+}
+
+.acc-btn:hover,
+.acc-btn.is-open {
+    /* font-weight: bold; */
+    color: #C1C9F5;
+    font-weight: bolder;
+}
+
+.acc-content {
+    color: #F2EFDE;
+    max-height: 0;
+    font-size: 1.5rem;
+    margin: 0 2rem;
+    padding-left: 1rem;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+    border-bottom: 1px solid #ccc;
+}

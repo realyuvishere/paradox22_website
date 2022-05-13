@@ -37,6 +37,7 @@ header>h3 {
     flex-wrap: wrap;
     justify-content: center;
     font-family: 'Bebas Neue', sans-serif;
+    flex-direction: column;
 }
 
 .faq {

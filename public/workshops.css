@@ -164,6 +164,15 @@ div p {
 @media(max-width:768px) {
     .workshop,
     .session {
-        font-size: 4em;
+        font-size: 1.8em;
+    }
+    .session{
+        font-size: 2em;
+    }
+    .section-body h1 {
+        font-size: 1em;
+    }
+    .section-body p{
+        font-size:.7em;
     }
 }

@@ -482,7 +482,6 @@ a{
     .ham{
         right:15%;
         position: fixed;
-        z-index: 9;
         width:10%;
     }
     .cross{

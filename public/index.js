@@ -131,12 +131,10 @@ if (window.matchMedia("(min-width: 1200px)").matches) {
     })
     logoimg.addEventListener('mouseenter', (e) => {
         cursor.classList.add('bigc')
-        cursor.classList.add('colr')
         cursor.classList.add('ind')
     })
     logoimg.addEventListener('mouseleave', (e) => {
         cursor.classList.remove('bigc')
-        cursor.classList.remove('colr')
         cursor.classList.remove('ind')
     })
     cross.addEventListener('mouseenter', (e) => {

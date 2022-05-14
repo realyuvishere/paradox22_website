@@ -1,0 +1,39 @@
+<%-include('./partials/header.ejs') %>
+<header class="spoop">
+    <h1 class="tits">Timeline</h1>
+    <div class="btn-grp">
+        <a href="" class="btn"><i class="fa fa-calendar"></i> Add to Calender</a>
+        <a href="" class="btn"><i class="fa fa-download"></i> Download as pdf</a>
+    </div>
+</header>
+
+<div class="desktop">
+    <div class="date-grp">
+        <a href="#day1" class="date active" data-tab-target="#day1">MAY 20</a>
+        <a href="#day2" class="date" data-tab-target="#day2">MAY 21</a>
+        <a href="#day3" class="date" data-tab-target="#day3">MAY 22</a>
+    </div>
+</div>
+<div class="cont">
+    <div class="mobile">
+        <a href="#day1-mobile" class="date active" data-tab-target="#day1-mobile">MAY 20 </a>
+        <a href="#day2-mobile" class="date" data-tab-target="#day2-mobile">MAY 21</a>
+        <a href="#day3-mobile" class="date" data-tab-target="#day3-mobile">MAY 22</a>
+    
+    </div>
+</div>
+
+<div class="flex">
+    <div class="desktop">
+        <img src="/imgs/Paradox May 20.jpg" alt="" class="time-line active" id="day1" data-tab-content>
+        <img src="/imgs/Paradox May 21.jpg" alt="" class="time-line" id="day2" data-tab-content>
+        <img src="/imgs/Paradox May 22.jpg" alt="" class="time-line" id="day3" data-tab-content>
+    </div>
+    <div class="mobile">
+        <img src="/imgs/Paradox May 20.jpg" alt="" class="time-line active" id="day1-mobile" data-tab-content>
+        <img src="/imgs/Paradox May 21.jpg" alt="" class="time-line" id="day2-mobile" data-tab-content>
+        <img src="/imgs/Paradox May 22.jpg" alt="" class="time-line" id="day3-mobile" data-tab-content>
+    </div>
+</div>
+
+<%-include('./partials/footer.ejs') %>

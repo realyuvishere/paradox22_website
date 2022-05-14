@@ -1,0 +1,39 @@
+body {
+    background-color: #121410;
+    color: #F2EFDE;
+}
+
+.hype{
+    text-align: center;
+    font-size:5em;
+    margin-top:0;
+    padding-top:90px;
+}
+b{
+    font-family:'Alata';
+}
+.content p{
+    color:#d6d6d6;
+}
+.content {
+    width: 90%;
+    padding: 20px;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    font-family: 'Work Sans', sans-serif;
+    border: 2px solid #F0F0F0;
+    border-radius: 10px;
+}
+
+@media(max-width:768px) {
+    .content{
+        font-size:1rem;
+        width: 75%;
+    }
+    .hype{
+        font-size:4rem;
+    }
+}

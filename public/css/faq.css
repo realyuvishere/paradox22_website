@@ -1,0 +1,118 @@
+body {
+    background-color: #121410;
+    color: #F2EFDE;
+}
+
+.heep {
+    min-height: 40vh;
+    max-height: 40vh;
+    background-color: #121410;
+    color: #F0F0F0;
+    position: relative;
+}
+
+.heep>h1 {
+    transform: rotate(270deg);
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    font-size: 5em;
+    color: #F0F0F0;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.heep>h3 {
+    position: absolute;
+    top: 35%;
+    left: 30%;
+    font-size: 2.3em;
+    color: #f0f0f0;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.faq-container {
+    max-width: 90%;
+    padding: 20px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Bebas Neue', sans-serif;
+    flex-direction: column;
+}
+
+.acc-btn {
+    color: #F2EFDE;
+    width: 100%;
+    padding: 1.6rem 2rem;
+    font-size: 1.6rem;
+    cursor: pointer;
+    background: inherit;
+    border: none;
+    outline: none;
+    text-align: left;
+    transition: all 0.5s linear;
+}
+
+.acc-btn:after {
+    content: "+";
+    color: #C1C9F5;
+    float: right;
+    transition: all 0.3s linear;
+    font-size: 2rem;
+}
+
+.acc-btn.is-open:after {
+    content: "-";
+    color: #C1C9F5;
+    float: right;
+    transition: all 0.3s linear;
+    font-size: 2rem;
+    /* transform: rotate(90deg); */
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+
+.acc-btn:hover,
+.acc-btn.is-open {
+    /* font-weight: bold; */
+    color: #C1C9F5;
+    font-weight: bolder;
+}
+
+.acc-content {
+    color: #F2EFDE;
+    max-height: 0;
+    font-size: 1.5rem;
+    margin: 0 2rem;
+    padding-left: 1rem;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+    border-bottom: 1px solid #ccc;
+}
+@media (max-width: 1000px) {
+    .heep>h3{
+        font-size:1.8em;
+        top: 39%;
+    }
+    .heep >.peeh {
+        left: 5%;
+    }
+}
+@media (max-width: 768px) {
+    .heep >h1 {
+        font-size:6em !important;
+        text-align: center !important;
+        transform: rotate(0deg);
+        position:initial;
+    }
+}
+@media (max-width: 460px) {
+    .heep >h1 {
+        transform: rotate(0deg)
+    }
+}

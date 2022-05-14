@@ -20,4 +20,13 @@ app.get('/sessions-workshops', (req, res) =>{
 app.get('/events/culturals/beyond-the-words', (req, res) =>{
   res.render('./events/culturals/beyond-the-words.ejs')
 })
+app.get('/timeline', (req, res) =>{
+  res.render('timeline.ejs')
+})
+app.get('/about', (req, res) =>{
+  res.render('about.ejs')
+})
+app.get('/faq', (req, res) =>{
+  res.render('faq.ejs')
+})
 app.listen(port);

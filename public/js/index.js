@@ -18,11 +18,35 @@ const literightbox = document.querySelector('#literightbox')
 const zoop = document.querySelector('.zoop')
 const tease = document.querySelector('.tease')
 const tea = document.querySelector('.tea')
-const about = document.querySelector('.about')
+const abt = document.querySelector('.abt')
 const upbox = document.querySelector('#upbox')
 const logoimg = document.querySelector('.logoimg')
 const preload = document.querySelector('#preloader')
-const sesh = document.querySelector('.sesh-pre')
+const life = document.querySelector('.life')
+const home = document.querySelector('.home')
+const contact = document.querySelector('.contact')
+const timeline = document.querySelector('.timeline')
+const faq = document.querySelector('.faq')
+console.log(window.location.href);
+
+if(window.location.href == 'http://localhost:8000/sessions-workshops'){
+    contact.classList.add('colr')
+}
+if(window.location.href == 'http://localhost:8000/'){
+    home.classList.add('colr')
+}
+if(window.location.href == 'http://localhost:8000/sponsors'){
+    life.classList.add('colr')
+}
+if(window.location.href == 'http://localhost:8000/timeline'){
+    timeline.classList.add('colr')
+}
+if(window.location.href == 'http://localhost:8000/faq'){
+    faq.classList.add('colr')
+}
+if(window.location.href == 'http://localhost:8000/about'){
+    abt.classList.add('colr')
+}
 const myFunction = (e) => {
     console.log(e);
     console.log(this);
@@ -128,12 +152,12 @@ cross.addEventListener('click', (e) => {
         width: '20px'
     }, 'nav')
 })
-setTimeout(() => {
-    tl.to(sesh, 1, {
-        opacity:'0.2',
-        display: 'none'
-    }) 
-}, 5000);
+// setTimeout(() => {
+//     tl.to(sesh, 1, {
+//         opacity:'0.2',
+//         display: 'none'
+//     }) 
+// }, 5000);
 if (window.matchMedia("(min-width: 1200px)").matches) {
 
     ham.addEventListener('mouseenter', (e) => {
@@ -191,13 +215,6 @@ if (window.matchMedia("(min-width: 1200px)").matches) {
             tease.innerHTML = "CLOSE TEASER"
         }
 
-    })
-    about.addEventListener('click', (e) => {
-        tl.fromTo(upbox, .5, {
-            bottom:'-100%'
-        },{
-            top: '-100%'
-        })
     })
 } else if (window.matchMedia("(max-width: 1200px)").matches) {
     ham.addEventListener('click', e => {

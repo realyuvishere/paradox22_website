@@ -341,15 +341,18 @@ body::-webkit-scrollbar {
     margin-top: 100px;
 }
 
-a {
+a .home,
+a .contact,
+a .life,
+a .about{
     text-decoration: none;
+    font-family: 'Bebas Neue', serif;
 }
-
 .home,
 .contact,
 .life,
 .about {
-    color: white;
+    color: #f0f0f0;
     font-size: 50px;
     padding: 15px;
     margin-left: 50px;

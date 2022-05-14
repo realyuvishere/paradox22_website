@@ -4,8 +4,8 @@ body {
 }
 
 header {
-    min-height: 100vh;
-    max-height: 100vh;
+    min-height: 40vh;
+    max-height: 40vh;
     background-color: #121410;
     color: #F0F0F0;
     position: relative;

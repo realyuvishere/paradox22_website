@@ -1,3 +1,11 @@
+.desktop {
+    display: block;
+}
+
+.mobile {
+    display: none;
+}
+
 body {
     background-color: #121410;
     color: #F2EFDE;
@@ -94,22 +102,16 @@ header>h3 {
     min-width: 100%;
 }
 
-.desktop {
-    display: block;
-}
-
-.mobile {
-    display: none;
-}
-
 .date {
+    text-decoration: none;
+    text-align: center;
     background-color: transparent;
     color: #F0F0F0;
     font-size: 1.2rem;
     padding: 10px;
     border: 1px solid #F0F0F0;
     margin: 15px 15px;
-    min-width: 400px;
+    width: 370px;
     border-radius: 5px;
 }
 
@@ -148,9 +150,13 @@ header>h3 {
         display: none;
     }
     .mobile {
-        display: block;
+        display: flex;
+        justify-content: center;
     }
     .mobile .date {
-        max-width: 120px;
+        min-width: 138px;
+        margin-left: 0px;
+        margin-right: 0px;
+        border-radius: 0px;
     }
 }

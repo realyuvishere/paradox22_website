@@ -75,6 +75,7 @@ header>h3 {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
+    font-family: 'Work Sans', sans-serif;
     top: 85%;
     right: 20%;
 }
@@ -99,6 +100,7 @@ header>h3 {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    font-family: 'Work Sans', sans-serif;
     min-width: 100%;
 }
 

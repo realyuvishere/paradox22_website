@@ -21,6 +21,12 @@ const tea = document.querySelector('.tea')
 const about = document.querySelector('.about')
 const upbox = document.querySelector('#upbox')
 const logoimg = document.querySelector('.logoimg')
+const preload = document.querySelector('.preloader')
+const myFunction = (e) => {
+    console.log(e);
+    console.log(this);
+}
+
 document.addEventListener('mousemove', (e) => {
     setTimeout(() => {
         cursor.setAttribute('style', 'top: ' + (e.pageY) + 'px;' + 'left: ' + (e.pageX) + 'px;')
@@ -212,3 +218,40 @@ if (window.matchMedia("(min-width: 1200px)").matches) {
 
     })
 }
+
+//PRELOADER LIQUID SCREEN LOADER
+// Document ready!
+function ready(callbackFunc) {
+    console.log(1);
+    if (document.readyState !== 'loading') {
+      // Document is already ready, call the callback directly
+      console.log(1);
+      callbackFunc();
+    } else if (document.addEventListener) {
+      // All modern browsers to register DOMContentLoaded
+      console.log(2);
+      document.addEventListener('DOMContentLoaded', callbackFunc);
+    } else {
+      // Old IE browsers
+      console.log(3);
+      document.attachEvent('onreadystatechange', function() {
+          console.log(4);
+        if (document.readyState === 'complete') {
+            console.log(5);
+          callbackFunc();
+        }
+      });
+    }
+  }
+  ready(function() {
+	var preloader = document.getElementById('preloader');
+	var btns = document.getElementsByTagName('button');
+	
+	// Test
+	setTimeout(function(){ preloader.className = 'slide-in' }, 500);
+	setTimeout(function(){ preloader.className = 'slide-out' }, 1500);
+    setTimeout(() => {
+        preloader.style.display='none'
+    }, 2300);
+	
+});

@@ -573,42 +573,10 @@ a .about{
     text-align: center;
 }
 
-.spon h1 {
-    font-size: 9rem;
-    color: white;
-    transform: rotate(270deg);
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 12%;
-    font-family: 'Bebas Neue', serif;
-    font-weight: 100;
-}
-
-#sponhead {
-    display: grid;
-    grid-template-columns: 1fr 5fr;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-}
-
-.thespon {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 3fr 1fr;
-    padding: 12%;
-    grid-gap: 10px;
-}
-
 .rows3 {
     grid-column: 1/3;
 }
 
-/* .thespon div{
-    border: 1px solid white;
-    border-radius: 20px;
-} */
 .rows1,
 .rows2,
 .rows3,
@@ -681,10 +649,6 @@ a .about{
         font-size: 14rem;
         letter-spacing:33px;
         font-family: 'Bebas Neue';
-    }
-
-    .spon h1 {
-        font-size: 14rem;
     }
 }
 
@@ -820,7 +784,7 @@ a .about{
 
     .cross {
         right: 5%;
-        position: absolute;
+        /* position: absolute; */
     }
 
     .idle {
@@ -892,93 +856,5 @@ a .about{
 
     .footer p {
         font-size: .6rem;
-    }
-}
-@media only screen and (max-width: 768px) {
-    .hold {
-        display: flex;
-        height: 100vh;
-        width: 100%;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-    }
-
-    .pd {
-        color: white;
-        /* left: 60px; */
-        z-index: 8;
-        /* height: 233px; */
-        font-weight: bold;
-        font-size: 5rem;
-        letter-spacing: 18px;
-        font-family: 'Bebas Neue';
-        margin: 0;
-        left: 0;
-    }
-
-    .child {
-        /* height: 270px; */
-        overflow: hidden;
-    }
-
-    .title {
-        color: white;
-        position: relative;
-        /* top: 40%; */
-        /* left: 60px; */
-        z-index: 8;
-        /* height: 233px; */
-        mix-blend-mode: difference;
-        font-weight: bold;
-        top: 0;
-        left: 0;
-    }
-
-    .idle p {
-        font-family: 'Work Sans', sans-serif;
-        color: white;
-        /* left: 60px; */
-        position: relative;
-        font-size: 1.7rem;
-        font-weight: 200;
-        /* align-self: end; */
-        margin: 0;
-        left: 0;
-    }
-
-    .idle {
-        z-index: 9;
-        position: relative;
-        /* width: 100%; */
-        /* top: 200px; */
-        /* height: 114px; */
-        mix-blend-mode: difference;
-        padding: 1rem;
-        top: 0;
-        width: auto;
-    }
-
-    .arrow {
-        width: 80%;
-        bottom: 0;
-        left: 0;
-        z-index: 13;
-        /* display: grid; */
-        border: 1px solid white;
-        /* position: absolute; */
-        mix-blend-mode: difference;
-        position: relative;
-
-    }
-
-    .tea {
-        font-size: 1rem;
-        font-family: 'Raleway', sans-serif;
-        display: block;
-        /* align-self: center; */
-        /* justify-self: center; */
-        color: white;
-        text-align: center;
     }
 }

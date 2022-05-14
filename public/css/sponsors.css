@@ -1,0 +1,50 @@
+.spon h1 {
+    font-size: 9rem;
+    color: white;
+    transform: rotate(270deg);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 12%;
+    font-family: 'Bebas Neue', serif;
+    font-weight: 100;
+}
+
+#sponhead {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.thespon {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 3fr 1fr;
+    padding: 12%;
+    grid-gap: 10px;
+}
+
+.columns {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.columns .column {
+    width: 100%;
+    border: 1px solid #fff;
+    margin: 0.5rem;
+}
+
+@media only screen and (max-width: 768px) {
+    #sponhead {
+        display: block;
+        position: relative;
+    }
+    .columns {
+        display: block;
+    }
+}

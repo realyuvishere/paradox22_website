@@ -4,7 +4,9 @@
     border-radius: 3px;
     padding: 3px
 }
-
+*{
+    font-family: 'Bebas Neue', serif;
+}
 html,
 body,
 .wrapper {
@@ -14,7 +16,19 @@ body,
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     /*System Font Stack*/
 }
+.sesh-pre{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: absolute;
+    background-color: #000;
+    z-index: 50;
+}
+.sesh-pre img{
+    height: 70%;
+    margin:auto;
 
+}
 .wrapper {
     width: 100vw;
     background-size: cover;
@@ -57,16 +71,19 @@ header>h1 {
     margin-right: 15px;
     max-width: 70%;
 }
-
+.section-body h1{
+    font-family: 'Bebas Neue', serif;
+    letter-spacing:2px;
+}
 .session {
-    letter-spacing: 2px;
+    letter-spacing: 4px;
     font-size: 5.5rem;
     height: fit-content;
     width: fit-content;
     margin: 0;
     align-self: end;
     margin-top: 50px;
-    /* font-family: 'Bebas Neue', sans-serif; */
+    font-family: 'Bebas Neue', sans-serif;
 }
 
 .workshop {
@@ -75,7 +92,7 @@ header>h1 {
     height: fit-content;
     align-self: end;
     margin: 0;
-    /* font-family: 'Bebas Neue',sans-serif; */
+    font-family: 'Bebas Neue',sans-serif;
 }
 
 .section-body>h3 {

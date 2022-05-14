@@ -21,12 +21,15 @@ const tea = document.querySelector('.tea')
 const about = document.querySelector('.about')
 const upbox = document.querySelector('#upbox')
 const logoimg = document.querySelector('.logoimg')
-const preload = document.querySelector('.preloader')
+const preload = document.querySelector('#preloader')
+const sesh = document.querySelector('.sesh-pre')
 const myFunction = (e) => {
     console.log(e);
     console.log(this);
 }
-
+setTimeout(() => {
+    preload.style.display='none'
+}, 2300);
 document.addEventListener('mousemove', (e) => {
     setTimeout(() => {
         cursor.setAttribute('style', 'top: ' + (e.pageY) + 'px;' + 'left: ' + (e.pageX) + 'px;')
@@ -125,6 +128,12 @@ cross.addEventListener('click', (e) => {
         width: '20px'
     }, 'nav')
 })
+setTimeout(() => {
+    tl.to(sesh, 1, {
+        opacity:'0.2',
+        display: 'none'
+    }) 
+}, 5000);
 if (window.matchMedia("(min-width: 1200px)").matches) {
 
     ham.addEventListener('mouseenter', (e) => {
@@ -145,9 +154,11 @@ if (window.matchMedia("(min-width: 1200px)").matches) {
     })
     cross.addEventListener('mouseenter', (e) => {
         cursor.classList.add('bigc')
+        cursor.classList.add('dni')
     })
     cross.addEventListener('mouseleave', (e) => {
         cursor.classList.remove('bigc')
+        cursor.classList.remove('dni')
     })
     arrw.addEventListener('mouseenter', (e) => {
         cursor.classList.add('bigb')
@@ -209,6 +220,7 @@ if (window.matchMedia("(min-width: 1200px)").matches) {
             
             tl.add('emid').to(one, .5, {
                 left: '0%',
+                top:'0',
                 opacity: '1',
                 display: 'block'
             }, 'emid').to(arrow, .1, {backgroundColor:'black'})
@@ -245,13 +257,10 @@ function ready(callbackFunc) {
   }
   ready(function() {
 	var preloader = document.getElementById('preloader');
-	var btns = document.getElementsByTagName('button');
 	
 	// Test
 	setTimeout(function(){ preloader.className = 'slide-in' }, 500);
 	setTimeout(function(){ preloader.className = 'slide-out' }, 1500);
-    setTimeout(() => {
-        preloader.style.display='none'
-    }, 2300);
+    
 	
 });

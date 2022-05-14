@@ -17,4 +17,7 @@ app.get('/sponsors', (req, res) =>{
 app.get('/sessions-workshops', (req, res) =>{
   res.render('sesh.ejs')
 })
+app.get('events/culturals/beyond-the-words', (req, res) =>{
+  res.render('beyond-the-words.ejs')
+})
 app.listen(port);

@@ -8,14 +8,16 @@
             <div class="theater-nav-items">
                 <ul>
                     <% data.forEach((item, index) => { %>
-                        <li><button class="nav-item"><%- item.title -%></button></li>
+                        <li>
+                            <button class="nav-item" data-event-tab-target="<%- item.title.split(' ')[0].toLocaleLowerCase() -%>"><%- item.title -%></button>
+                        </li>
                     <% }) %>
                 </ul>
             </div>
         </div>
         <div class="theater-content">
             <% data.forEach((item, index) => { %>
-                <div class="theater-content-body">
+                <div class="theater-content-body" id="<%- item.title.split(' ')[0].toLocaleLowerCase() -%>" data-event-tab-content>
                     <div class="theater-content-body-title">
                         <h2><%- item.title -%></h2>
                     </div>
@@ -44,4 +46,5 @@
         </div>
     </div>
 </main>
+<script src="/js/sports.js"></script>
 <%-include('../partials/footer.ejs') %>

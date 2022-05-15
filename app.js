@@ -1,5 +1,6 @@
 const express = require('express')
 const dotenv = require('dotenv')
+const {sports, cultural, professional} = require('./dataset')
 dotenv.config()
 const app = express()
 let port = process.env.PORT;
@@ -19,53 +20,15 @@ app.get('/sponsors', (req, res) =>{
 app.get('/events', (req, res) =>{
   res.render('events.ejs')
 })
-const sports = [
-  {
-    title: 'Badminton',
-    url: '',
-    imageID: '',
-    desc: '',
-    date: '',
-    venue: '',
-    contact: [
-      {
-        name: '',
-        email: '',
-      },
-      {
-        name: '',
-        email: '',
-      },
-    ]
-  }, 
-  {
-    title: 'Cricket',
-    url: '',
-    imageID: '',
-    desc: '',
-    date: '',
-    venue: '',
-    contact: [
-      {
-        name: '',
-        email: '',
-      },
-      {
-        name: '',
-        email: '',
-      },
-    ]
-  },
-]
 
 app.get('/events/sports', (req, res) =>{
   res.render('./events/index.ejs', {data: sports, title: 'Sports'})
 })
 app.get('/events/cultural', (req, res) =>{
-  res.render('./events/index.ejs', {data: sports, title: 'Cultural'})
+  res.render('./events/index.ejs', {data: cultural, title: 'Cultural'})
 })
 app.get('/events/professional', (req, res) =>{
-  res.render('./events/index.ejs', {data: sports, title: 'Professional'})
+  res.render('./events/index.ejs', {data: professional, title: 'Professional'})
 })
 
 app.get('/sessions-workshops', (req, res) =>{

@@ -301,3 +301,14 @@ main#event .theater-content-body-text .register-btn.disabled:hover {
     background-color: #616967;
     color: #222
 }
+
+@media screen and (max-width: 768px) {
+    main#event .theater {
+        flex-direction: column
+    }
+
+    main#event .theater-nav,
+    main#event .theater-content {
+        width: auto
+    }
+}

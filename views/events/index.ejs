@@ -2,6 +2,7 @@
 
 <link rel="stylesheet" href="/css/events.css">
 <main id="event">
+    <div id="dynamic_bg" style="background-image: url('/imgs/events-posters/cultural/Under the Stars.png');"></div>
     <div class="theater">
         <div class="theater-nav">
             <h1 class="page_title"><%- title -%></h1>
@@ -38,10 +39,13 @@
                             <% }) %>
                         </ul>
 
-                        <a class="register-btn" href="<%- item.url -%>" target="_blank">
-                            Register here <i class="fa fa-external-link"></i>
-                        </a>
-                        <a class="register-btn disabled">Registerations closed</a>
+                        <% if (item.url !== '') { %>
+                            <a class="register-btn" href="<%- item.url -%>" target="_blank">
+                                Register here <i class="fa fa-external-link"></i>
+                            </a>
+                        <% } else { %>
+                            <a class="register-btn disabled">Registerations closed</a>
+                        <% } %>
                     </div>
                 </div>
             <% }) %>

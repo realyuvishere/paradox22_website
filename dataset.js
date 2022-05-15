@@ -234,7 +234,7 @@ const professional = [
         title: "Hack-o-Pitch",
         url: '',
         imageID: '',
-        desc: "Check out the hack-o-pitch Website for more details: <a href = \"www.hackopitch.tech\">Click Here</a>",
+        desc: "Check out the hack-o-pitch Website for more details: <a href='https://www.hackopitch.tech' target='_blank'>Click Here</a>",
         date: "02:00 pm - 06:00 pm",
         venue: "CLT/ICSR Main Auditorium",
         contact: [

@@ -27,30 +27,26 @@ const home = document.querySelector('.home')
 const contact = document.querySelector('.contact')
 const timeline = document.querySelector('.timeline')
 const faq = document.querySelector('.faq')
-console.log(window.location.href);
 
-if(window.location.href == 'http://localhost:8000/sessions-workshops'){
+if(window.location.pathname.search('/sessions-workshops') > -1){
     contact.classList.add('colr')
 }
-if(window.location.href == 'http://localhost:8000/'){
+if(window.location.pathname === '/'){
     home.classList.add('colr')
 }
-if(window.location.href == 'http://localhost:8000/sponsors'){
+if(window.location.pathname.search('/sponsors') > -1){
     life.classList.add('colr')
 }
-if(window.location.href == 'http://localhost:8000/events'){
+if(window.location.pathname.search('/events') > -1){
     about.classList.add('colr')
 }
-if(window.location.href == 'http://localhost:8000/timeline'){
+if(window.location.pathname.search('/timeline') > -1){
     timeline.classList.add('colr')
 }
-if(window.location.href == 'http://localhost:8000/faq'){
+if(window.location.pathname.search('/faq') > -1){
     faq.classList.add('colr')
 }
-if(window.location.href == 'http://localhost:8000/about'){
-    abt.classList.add('colr')
-}
-if(window.location.href == 'http://localhost:8000/about'){
+if(window.location.pathname.search('/about') > -1){
     abt.classList.add('colr')
 }
 const myFunction = (e) => {

@@ -1,0 +1,47 @@
+<%-include('../partials/header.ejs') %>
+
+<link rel="stylesheet" href="/css/events.css">
+<main id="event">
+    <div class="theater">
+        <div class="theater-nav">
+            <h1 class="page_title"><%- title -%></h1>
+            <div class="theater-nav-items">
+                <ul>
+                    <% data.forEach((item, index) => { %>
+                        <li><button class="nav-item"><%- item.title -%></button></li>
+                    <% }) %>
+                </ul>
+            </div>
+        </div>
+        <div class="theater-content">
+            <% data.forEach((item, index) => { %>
+                <div class="theater-content-body">
+                    <div class="theater-content-body-title">
+                        <h2><%- item.title -%></h2>
+                    </div>
+                    <div class="theater-content-body-text">
+                        <h3>Rules</h3>
+                        <p class="event-desc"></p>
+
+                        <h3>Date & Time</h3>
+                        <div class="event-date"></div>
+
+                        <h3>Venue</h3>
+                        <div class="event-venue"></div>
+
+                        <h3>Contact</h3>
+                        <ul class="event-contacts">
+                            <li>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                            </li>
+                        </ul>
+
+                        <a class="register-btn" href="<%- item.url -%>" target="_blank">Register here <i class="fa fa-external-link"></i></a>
+                        <a class="register-btn disabled">Registerations closed</a>
+                    </div>
+                </div>
+            <% }) %>
+        </div>
+    </div>
+</main>
+<%-include('../partials/footer.ejs') %>

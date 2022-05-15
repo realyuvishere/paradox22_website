@@ -22,7 +22,7 @@ app.get('/events', (req, res) =>{
 const sports = [
   {
     title: 'Badminton',
-    url: '/events/sports/badminton',
+    url: '',
     imageID: '',
     desc: '',
     date: '',
@@ -37,14 +37,37 @@ const sports = [
         email: '',
       },
     ]
-  }, {
-    title: 'Badminton',
-    url: '/events/sports/badminton'
-  }
+  }, 
+  {
+    title: 'Cricket',
+    url: '',
+    imageID: '',
+    desc: '',
+    date: '',
+    venue: '',
+    contact: [
+      {
+        name: '',
+        email: '',
+      },
+      {
+        name: '',
+        email: '',
+      },
+    ]
+  },
 ]
+
 app.get('/events/sports', (req, res) =>{
-  res.render('./events/sports.ejs', {data: sports})
+  res.render('./events/index.ejs', {data: sports, title: 'Sports'})
 })
+app.get('/events/cultural', (req, res) =>{
+  res.render('./events/index.ejs', {data: sports, title: 'Cultural'})
+})
+app.get('/events/professional', (req, res) =>{
+  res.render('./events/index.ejs', {data: sports, title: 'Professional'})
+})
+
 app.get('/sessions-workshops', (req, res) =>{
   res.render('sesh.ejs')
 })

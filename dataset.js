@@ -1,31 +1,31 @@
 const sports = [
     {
-      title: 'Badminton',
-      url: '',
-      imageID: '',
-      desc: "Tired? Refresh with <b>Badminton</b>. It is a fast-pace, fun workout game that offers big rewards to players of all ages. We plan to host Doubles and mixed doubles based on the preference of the participants. Each game will be of 21 pointers of single set.",
-      date: "20th May, 06:00am-10:00am",
-      venue: "20/05/2022 - SAC",
-      contact: [
-        {
-          name: "Rahul jaiswal",
-          email: "21f1003040@student.onlinedegree.iitm.ac.in",
-        }
-      ]
-    }, 
+        title: 'Badminton',
+        url: '',
+        imageID: '',
+        desc: "Tired? Refresh with <b>Badminton</b>. It is a fast-pace, fun workout game that offers big rewards to players of all ages. We plan to host Doubles and mixed doubles based on the preference of the participants. Each game will be of 21 pointers of single set.",
+        date: "20th May, 06:00am-10:00am",
+        venue: "20/05/2022 - SAC",
+        contact: [
+            {
+                name: "Rahul jaiswal",
+                email: "21f1003040@student.onlinedegree.iitm.ac.in",
+            }
+        ]
+    },
     {
-      title: 'Basketball',
-      url: '',
-      imageID: '',
-      desc: "<b>Basketball</b>, a fast game which wakes you up from the sleep of annoying thoughts and brings your mind to the present moment so as to try every possibility of winning the game. We, the team of PARADOX'22, brought this game with a little twist and lots of fun. All of us have played Basketball in teams. Now, it's time to play it as an individual. You can showcase your skills and cutting moves. The matches will be played 1v1 in knockout format. Each game will be a 5-pointer match. We also have a surprise for you. So what are you waiting for? Go and register for it... Meet you at the court.",
-      date: "20th May, 07:00am-09:00am",
-      venue: "20/05/2022 - Sports complex Basketball court",
-      contact: [
-        {
-          name: "Uday Agrawal",
-          email: "21f3001708@student.onlinedegree.iitm.ac.in",
-        }
-      ]
+        title: 'Basketball',
+        url: '',
+        imageID: '',
+        desc: "<b>Basketball</b>, a fast game which wakes you up from the sleep of annoying thoughts and brings your mind to the present moment so as to try every possibility of winning the game. We, the team of PARADOX'22, brought this game with a little twist and lots of fun. All of us have played Basketball in teams. Now, it's time to play it as an individual. You can showcase your skills and cutting moves. The matches will be played 1v1 in knockout format. Each game will be a 5-pointer match. We also have a surprise for you. So what are you waiting for? Go and register for it... Meet you at the court.",
+        date: "20th May, 07:00am-09:00am",
+        venue: "20/05/2022 - Sports complex Basketball court",
+        contact: [
+            {
+                name: "Uday Agrawal",
+                email: "21f3001708@student.onlinedegree.iitm.ac.in",
+            }
+        ]
     },
     {
         title: "Box Cricket",
@@ -35,16 +35,16 @@ const sports = [
         date: "20th May, 06:00am-10:00am",
         venue: "20/05/2022 - Chemplast Cricket Ground",
         contact: [
-          {
-            name: "Rajkishore Nandi",
-            email: "21f1006016@student.onlinedegree.iitm.ac.in",
-          },
-          {
-            name: "Sachin Pandey",
-            email: "21f2001009@student.onlinedegree.iitm.ac.in",
-          }
+            {
+                name: "Rajkishore Nandi",
+                email: "21f1006016@student.onlinedegree.iitm.ac.in",
+            },
+            {
+                name: "Sachin Pandey",
+                email: "21f2001009@student.onlinedegree.iitm.ac.in",
+            }
         ]
-      },
+    },
     {
         title: "Kampus Run",
         url: '',
@@ -53,10 +53,10 @@ const sports = [
         date: "21st May, 05:30am-07:30am",
         venue: "21/05/2022 - IITM Campus Kendriya Vidyalaya",
         contact: [
-          {
-            name: "Krishna",
-            email: "21f3001825@student.onlinedegree.iitm.ac.in",
-          }
+            {
+                name: "Krishna",
+                email: "21f3001825@student.onlinedegree.iitm.ac.in",
+            }
         ]
     },
     {
@@ -67,14 +67,14 @@ const sports = [
         date: "20th May, 08:00am-10:00am",
         venue: "20/05/2022 - Sports complex ground floor Table Tennis",
         contact: [
-          {
-            name: "Somsankar Chakraborty",
-            email: "21f3003023@student.onlinedegree.iitm.ac.in",
-          },
-          {
-            name: "Somsankar Chakraborty",
-            email: "21f1003070@student.onlinedegree.iitm.ac.in",
-          }
+            {
+                name: "Somsankar Chakraborty",
+                email: "21f3003023@student.onlinedegree.iitm.ac.in",
+            },
+            {
+                name: "Somsankar Chakraborty",
+                email: "21f1003070@student.onlinedegree.iitm.ac.in",
+            }
         ]
     },
     {
@@ -85,14 +85,14 @@ const sports = [
         date: "20th May, 7:00 AM - 10:00 AM",
         venue: "20/05/2022 - Outside OAT",
         contact: [
-          {
-            name: "Sankalp Shrivastava",
-            email: "21f1006134@student.onlinedegree.iitm.ac.in",
-          },
-          {
-            name: "Akansha Gautam",
-            email: "21f1006228@student.onlinedegree.iitm.ac.in",
-          }
+            {
+                name: "Sankalp Shrivastava",
+                email: "21f1006134@student.onlinedegree.iitm.ac.in",
+            },
+            {
+                name: "Akansha Gautam",
+                email: "21f1006228@student.onlinedegree.iitm.ac.in",
+            }
         ]
     },
     {
@@ -103,18 +103,18 @@ const sports = [
         date: "20th May, 08.00 am - 10.00 am",
         venue: "20/05/2022 - Sports complex 2nd floor Chess room",
         contact: [
-          {
-            name: "Manidipa Roy",
-            email: "21f1006134@student.onlinedegree.iitm.ac.in",
-          },
-          {
-            name: "Ranjan Kumar",
-            email: "21f1003566@student.onlinedegree.iitm.ac.in",
-          },
-          {
-            name: "Sameer Phaniraj Kumble",
-            email: "21f3001645@student.onlinedegree.iitm.ac.in",    
-          }
+            {
+                name: "Manidipa Roy",
+                email: "21f1006134@student.onlinedegree.iitm.ac.in",
+            },
+            {
+                name: "Ranjan Kumar",
+                email: "21f1003566@student.onlinedegree.iitm.ac.in",
+            },
+            {
+                name: "Sameer Phaniraj Kumble",
+                email: "21f3001645@student.onlinedegree.iitm.ac.in",
+            }
         ]
     },
 ]
@@ -128,10 +128,14 @@ const cultural = [
         date: "20th May, 03:00pm-05:00pm",
         venue: "Preliminary Round - 20/05/2022 <br> FINALE - 21/05/2022 - Student Activity Center (SAC)",
         contact: [
-          {
-            name: "Ayush Rai",
-            email: "21f3000285@student.onlinedegree.ittm.ac.in",
-          }
+            {
+                name: "Shubham Kumar",
+                email: "21f3000285@student.onlinedegree.ittm.ac.in",
+            },
+            {
+                name: "Ayush Rai",
+                email: "21f3003249@student.onlinedegree.ittm.ac.in",
+            }
         ]
     },
     {
@@ -142,10 +146,10 @@ const cultural = [
         date: "Round 1 - 04th May, 06:00pm-09:00pm - Online Qualifier Round <br> Round 2 - 20th May, 01:30pm-03:30pm - Preliminary Round <br> Round 3 - 21st May, 02:00pm-03:00pm - FINALE",
         venue: "Preliminary Round - 20/05/2022 <br> FINALE - 21/05/2022 - Student Activity Center (SAC)",
         contact: [
-          {
-            name: "Sampriti Raha",
-            email: " 22f1000064@student.onlinedegree.iitm.ac.in",
-          }
+            {
+                name: "Sampriti Raha",
+                email: " 22f1000064@student.onlinedegree.iitm.ac.in",
+            }
         ]
     },
     {
@@ -156,10 +160,10 @@ const cultural = [
         date: "20th May, 06:00pm-07:30pm",
         venue: "20/05/2022 - Student Activity Center (SAC)",
         contact: [
-          {
-            name: "Tanya Jha",
-            email: "21f2001453@student.onlinedegree.iitm.ac.in",
-          }
+            {
+                name: "Tanya Jha",
+                email: "21f2001453@student.onlinedegree.iitm.ac.in",
+            }
         ]
     },
     {
@@ -170,10 +174,10 @@ const cultural = [
         date: "20th May, 08:00pm-10:00pm",
         venue: "20/05/2022 - Students Activity Center (SAC)",
         contact: [
-          {
-            name: "Will be updated Updated Soon, contact paradox support",
-            email: "Updated Soon, contact paradox support",
-          }
+            {
+                name: "Will be updated Updated Soon, contact paradox support",
+                email: "Updated Soon, contact paradox support",
+            }
         ]
     },
     {
@@ -184,14 +188,14 @@ const cultural = [
         date: "Round 1 - 20th May, 01:30pm-03:30pm - Preliminary Round <br><br> Round 2 - 21st May, 03:30pm-05:30pm - FINALE",
         venue: "Preliminary Round - 20/05/2022<br><br>FINALE - 21/05/2022 - Student Activity Center (SAC)",
         contact: [
-          {
-            name: "Lakshya Raj",
-            email: "21f1003767@student.onlinedegree.iitm.ac.in",
-          },
-          {
-            name: "Soumyabatra Mahapatra",
-            email: "21f1003070@student.onlinedegree.iitm.ac.in",
-          }
+            {
+                name: "Lakshya Raj",
+                email: "21f1003767@student.onlinedegree.iitm.ac.in",
+            },
+            {
+                name: "Soumyabatra Mahapatra",
+                email: "21f1003070@student.onlinedegree.iitm.ac.in",
+            }
         ]
     },
     {
@@ -202,13 +206,13 @@ const cultural = [
         date: "20th May, 10:00pm-02:00am",
         venue: "20/05/2022 - Students Activity Center (SAC)",
         contact: [
-          {
-            name: "Mihir Gupta",
-            email: "21f1001154@student.onlinedegree.iitm.ac.in",
-          }
+            {
+                name: "Mihir Gupta",
+                email: "21f1001154@student.onlinedegree.iitm.ac.in",
+            }
         ]
     }
-    
+
 ]
 
 const professional = [
@@ -220,10 +224,10 @@ const professional = [
         date: "20th May, 2022, 2:00 pm to 4:00 pm",
         venue: "SAC",
         contact: [
-          {
-            name: "Sankalp Arora",
-            email: "21f1004054@student.onlinedegree.iitm.ac.in",
-          }
+            {
+                name: "Sankalp Arora",
+                email: "21f1004054@student.onlinedegree.iitm.ac.in",
+            }
         ]
     },
     {
@@ -234,14 +238,14 @@ const professional = [
         date: "02:00 pm - 06:00 pm",
         venue: "CLT/ICSR Main Auditorium",
         contact: [
-          {
-            name: "Ankit Singh",
-            email: "21f1001955@student.onlinedegree.iitm.ac.in",
-          },
-          {
-            name: "Sachin Singh",
-            email: "21f1003251@student.onlinedegree.iitm.ac.in",
-          }
+            {
+                name: "Ankit Singh",
+                email: "21f1001955@student.onlinedegree.iitm.ac.in",
+            },
+            {
+                name: "Sachin Singh",
+                email: "21f1003251@student.onlinedegree.iitm.ac.in",
+            }
         ]
     }
 ]

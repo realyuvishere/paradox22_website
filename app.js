@@ -17,8 +17,17 @@ app.get('/sponsors', (req, res) =>{
 app.get('/events', (req, res) =>{
   res.render('events.ejs')
 })
+const sports = [
+  {
+    title: 'Badminton',
+    url: '/events/sports/badminton'
+  }, {
+    title: 'Badminton',
+    url: '/events/sports/badminton'
+  }
+]
 app.get('/events/sports', (req, res) =>{
-  res.render('./events/sports.ejs').send({data: []})
+  res.render('./events/sports.ejs', {data: sports})
 })
 app.get('/sessions-workshops', (req, res) =>{
   res.render('sesh.ejs')

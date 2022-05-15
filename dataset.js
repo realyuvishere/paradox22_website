@@ -195,7 +195,7 @@ const cultural = [
         ]
     },
     {
-        title: "Qutopia",
+        title: "Under the Stars",
         url: '',
         imageID: '',
         desc: "Tired of hustling around with the events? Why not take a break for a while. Just relax yourself with calm and soothing music. The magnificent ambience might help in creating long-lasting memories. Get to know the crowd around you with a chilling and truly splendid atmosphere. The sight of hanging lights would be enchanting. Unique and spontaneous night with a bunch of people and a bit of chit-chat is gonna be memorable.",

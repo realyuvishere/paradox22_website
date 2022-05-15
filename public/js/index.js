@@ -1,6 +1,5 @@
 const arrw = document.querySelector('.arrw');
 const arrow = document.querySelector('.arrow');
-const arr = document.querySelector('.arr');
 const one = document.querySelector('#one')
 const cursor = document.querySelector('.cursor');
 const title = document.querySelector('.title')
@@ -20,6 +19,7 @@ const tease = document.querySelector('.tease')
 const tea = document.querySelector('.tea')
 const abt = document.querySelector('.abt')
 const upbox = document.querySelector('#upbox')
+const about = document.querySelector('.about')
 const logoimg = document.querySelector('.logoimg')
 const preload = document.querySelector('#preloader')
 const life = document.querySelector('.life')
@@ -38,11 +38,17 @@ if(window.location.href == 'http://localhost:8000/'){
 if(window.location.href == 'http://localhost:8000/sponsors'){
     life.classList.add('colr')
 }
+if(window.location.href == 'http://localhost:8000/events'){
+    about.classList.add('colr')
+}
 if(window.location.href == 'http://localhost:8000/timeline'){
     timeline.classList.add('colr')
 }
 if(window.location.href == 'http://localhost:8000/faq'){
     faq.classList.add('colr')
+}
+if(window.location.href == 'http://localhost:8000/about'){
+    abt.classList.add('colr')
 }
 if(window.location.href == 'http://localhost:8000/about'){
     abt.classList.add('colr')
@@ -216,7 +222,7 @@ if (window.matchMedia("(min-width: 1200px)").matches) {
         }
 
     })
-} else if (window.matchMedia("(max-width: 1200px)").matches) {
+} else if (window.matchMedia("(max-width: 1200px)").matches || window.matchMedia("(min-height: 1600px)")) {
     ham.addEventListener('click', e => {
         tl.add('nav').to(leftbox, 0.6, {
             left:'0%'

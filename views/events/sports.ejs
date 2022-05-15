@@ -4,25 +4,14 @@
 <main id="events">
     <h1 class="page_title">Sports</h1>
     <div class="page-content-type">
-        <div class="card">
-            <div class="content">
-                <h2 class="card-title">Badminton</h2>
-                <button class="btn">View Details</button>
+        <% data.forEach((item, index) => { %>
+            <div class="card">
+                <div class="content">
+                    <h2 class="card-title"><%- item.title -%></h2>
+                    <a class="btn" href="<%- item.url -%>">View Details</a>
+                </div>
             </div>
-        </div>
-        <div class="card">
-            <div class="content">
-                <h2 class="card-title">Cultural</h2>
-
-                <button class="btn">View Trips</button>
-            </div>
-        </div>
-        <div class="card">
-            <div class="content">
-                <h2 class="card-title">Professional</h2>
-                <button class="btn">View Trips</button>
-            </div>
-        </div>
+        <% }) %>
     </div>
 </main>
 <%-include('../partials/footer.ejs') %>

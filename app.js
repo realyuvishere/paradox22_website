@@ -22,7 +22,21 @@ app.get('/events', (req, res) =>{
 const sports = [
   {
     title: 'Badminton',
-    url: '/events/sports/badminton'
+    url: '/events/sports/badminton',
+    imageID: '',
+    desc: '',
+    date: '',
+    venue: '',
+    contact: [
+      {
+        name: '',
+        email: '',
+      },
+      {
+        name: '',
+        email: '',
+      },
+    ]
   }, {
     title: 'Badminton',
     url: '/events/sports/badminton'

@@ -14,6 +14,12 @@ app.get('/', (req, res) =>{
 app.get('/sponsors', (req, res) =>{
   res.render('sponsor.ejs')
 })
+app.get('/events', (req, res) =>{
+  res.render('events.ejs')
+})
+app.get('/events/sports', (req, res) =>{
+  res.render('./events/sports.ejs').send({data: []})
+})
 app.get('/sessions-workshops', (req, res) =>{
   res.render('sesh.ejs')
 })

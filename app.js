@@ -24,9 +24,11 @@ app.get('/events', (req, res) =>{
 app.get('/events/sports', (req, res) =>{
   res.render('./events/index.ejs', {data: sports, title: 'Sports'})
 })
+
 app.get('/events/cultural', (req, res) =>{
   res.render('./events/index.ejs', {data: cultural, title: 'Cultural'})
 })
+
 app.get('/events/professional', (req, res) =>{
   res.render('./events/index.ejs', {data: professional, title: 'Professional'})
 })
@@ -34,9 +36,9 @@ app.get('/events/professional', (req, res) =>{
 app.get('/sessions-workshops', (req, res) =>{
   res.render('sesh.ejs')
 })
-app.get('/events/culturals/beyond-the-words', (req, res) =>{
-  res.render('./events/culturals/beyond-the-words.ejs')
-})
+// app.get('/events/culturals/beyond-the-words', (req, res) =>{
+//   res.render('./events/culturals/beyond-the-words.ejs')
+// })
 app.get('/timeline', (req, res) =>{
   res.render('timeline.ejs')
 })

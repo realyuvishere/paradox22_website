@@ -23,22 +23,24 @@
                     </div>
                     <div class="theater-content-body-text">
                         <h3>Rules</h3>
-                        <p class="event-desc"></p>
+                        <p class="event-desc"><%- item.desc -%></p>
 
                         <h3>Date & Time</h3>
-                        <div class="event-date"></div>
+                        <div class="event-date"><%- item.date -%></div>
 
                         <h3>Venue</h3>
-                        <div class="event-venue"></div>
+                        <div class="event-venue"><%- item.venue -%></div>
 
                         <h3>Contact</h3>
                         <ul class="event-contacts">
-                            <li>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                            </li>
+                            <% item.contact.forEach((item, index) => { %>
+                                <li><%- item.name -%> ( <%- item.email -%> )</li>
+                            <% }) %>
                         </ul>
 
-                        <a class="register-btn" href="<%- item.url -%>" target="_blank">Register here <i class="fa fa-external-link"></i></a>
+                        <a class="register-btn" href="<%- item.url -%>" target="_blank">
+                            Register here <i class="fa fa-external-link"></i>
+                        </a>
                         <a class="register-btn disabled">Registerations closed</a>
                     </div>
                 </div>

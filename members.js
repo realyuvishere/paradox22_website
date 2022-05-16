@@ -130,7 +130,7 @@ const webteam = [
     {
         name: 'Ayush Kumar',
         tagline: 'I\'m a web developer, programmer, foody & likes travelling. I can\'t change the direction of wind, but adjust my sails to always reach my destination.',
-        image: 'https://i.imgur.com/ofHiX3B.jpg',
+        image: 'https://i.imgur.com/WPTXo2h.jpg',
         studentId: '21f3002911',
         social: {
             linkedin: 'https://www.linkedin.com/in/ayush838/',
@@ -143,7 +143,7 @@ const webteam = [
     {
         name: 'Aryan Mishra',
         tagline: 'Process more important than result.',
-        image: 'https://i.imgur.com/4oXfZCL.jpg',
+        image: 'https://i.imgur.com/ofHiX3B.jpg',
         studentId: '21f3002911',
         social: {
             linkedin: '',

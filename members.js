@@ -69,11 +69,11 @@ const webteam = [
         image: 'https://i.imgur.com/ACjINOF.jpg',
         studentId: '21f3002911',
         social: {
-            linkedin: '',
-            instagram: '',
+            linkedin: 'https://www.linkedin.com/in/manish-suresh-b584361b5/',
+            instagram: 'https://www.instagram.com/iitasau_uwfom/',
             twitter: '',
             facebook: '',
-            github:''
+            github:'https://github.com/bLanK-sudo'
         },
     },
     {

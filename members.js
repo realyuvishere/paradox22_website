@@ -37,7 +37,7 @@ const festteam = [
     },
     {
         name: 'Vibhore Agarwal',
-        tagline: '',
+        tagline: 'Social butterfly your introverted friend warned you about',
         image: 'https://i.imgur.com/VUp2dYk.jpg',
         studentId: '21f1004126',
         social: {

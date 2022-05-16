@@ -33,7 +33,8 @@
   <% web.forEach((item, index) => { %>
     <% var namearr = item.name.split(' ') %>
     <div class="container">
-      <div class="gradient">
+      <div class="gradient" style="background-image: url('<%- item.image -%>'); background-color: rgba(0,0,0, 1);
+        background-blend-mode: difference;">
         <div class="cont">
           <h2>
             <%- namearr[0] -%>

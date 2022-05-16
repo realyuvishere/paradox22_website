@@ -935,7 +935,7 @@ a {
         visibility: hidden;
     }
     .header-para{
-        margin-left: 1.4em;
+        display: none;
     }
     #literightbox,
     #rightbox {
@@ -994,7 +994,9 @@ a {
         right: 5%;
         /* position: absolute; */
     }
-
+    .ham{
+        right: 5%;
+    }
     .idle {
         left: 10%;
         top: 30%;

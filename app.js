@@ -1,6 +1,7 @@
 const express = require('express')
 const dotenv = require('dotenv')
 const {sports, cultural, professional} = require('./dataset')
+const {webteam, festteam} = require('./members')
 dotenv.config()
 const app = express()
 let port = process.env.PORT;
@@ -64,7 +65,7 @@ app.get('/faq', (req, res) =>{
   res.render('faq.ejs')
 })
 app.get('/our-team', (req, res) =>{
-  res.render('our-team.ejs')
+  res.render('our-team.ejs', {fest: festteam, web: webteam})
 })
 app.get('/contact-us', (req, res) =>{
   res.render('contact-us')

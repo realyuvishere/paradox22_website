@@ -48,7 +48,7 @@
     display:flex;
     justify-content: center;
 }
-.sp:hover{
+.ap:hover{
     transition: all 0.3s cubic-bezier(0.17, 0.67, 0.83, 0.67);
     background-color: #C1C9F5;
 }

@@ -27,12 +27,14 @@ const home = document.querySelector('.home')
 const contact = document.querySelector('.contact')
 const timeline = document.querySelector('.timeline')
 const faq = document.querySelector('.faq')
-
+const logo = document.querySelector('.logo')
+const head = document.querySelector('.header-para')
 if(window.location.pathname.search('/sessions-workshops') > -1){
     contact.classList.add('colr')
 }
 if(window.location.pathname === '/'){
     home.classList.add('colr')
+    head.classList.add('hide')
 }
 if(window.location.pathname.search('/sponsors') > -1){
     life.classList.add('colr')
@@ -79,6 +81,8 @@ ham.addEventListener('click', (e) => {
         width: '0px'
     }, 'nav').to(ham, 0.1, {
         visibility: 'hidden'
+    }).to(logo, 0.1, {
+        display: 'none'
     })
     tl.add('litebar').to(liteleftbox, 0.6, {
         left: '0%',
@@ -152,6 +156,8 @@ cross.addEventListener('click', (e) => {
         width: '0px'
     }, {
         width: '20px'
+    }, 'nav').to(logo, .1, {
+        display: 'inherit'
     }, 'nav')
 })
 // setTimeout(() => {
@@ -163,12 +169,12 @@ cross.addEventListener('click', (e) => {
 if (window.matchMedia("(min-width: 1200px)").matches) {
 
     ham.addEventListener('mouseenter', (e) => {
-        cursor.classList.add('bigc')
         cursor.classList.add('ind')
+        cursor.classList.add('colr1')
     })
     ham.addEventListener('mouseleave', (e) => {
-        cursor.classList.remove('bigc')
         cursor.classList.remove('ind')
+        cursor.classList.remove('colr1')
     })
     logoimg.addEventListener('mouseenter', (e) => {
         cursor.classList.add('bigc')
@@ -189,12 +195,10 @@ if (window.matchMedia("(min-width: 1200px)").matches) {
     arrw.addEventListener('mouseenter', (e) => {
         cursor.classList.add('bigb')
         cursor.classList.add('mixb')
-        tease.classList.add('visible')
     })
     arrw.addEventListener('mouseleave', (e) => {
         cursor.classList.remove('bigb')
         cursor.classList.remove('mixb')
-        tease.classList.remove('visible')
     })
     arrw.addEventListener('click', (e) => {
         if (click) {
@@ -204,7 +208,12 @@ if (window.matchMedia("(min-width: 1200px)").matches) {
                 opacity: '.5'
             }, 'smid').to(one, 1, {
                 display: 'none'
+            }).to(arrw, 2, {
+                left:'40px',
+            }, 'smid').to(arrw, .5, {
+                transform: 'rotate(0deg)'
             })
+            console.log(arrw.attributes[1].nodeValue = "/imgs/trailer button open.png");
             tease.innerHTML = "WATCH TEASER"
         } else {
             click = true
@@ -213,7 +222,13 @@ if (window.matchMedia("(min-width: 1200px)").matches) {
                 right: '0',
                 opacity: '1',
                 display: 'block'
+            }, 'emid').to(arrw, 2, {
+                left:'90%',
             }, 'emid')
+            tl.to(arrw, 3, {
+                transform: 'rotate(3.142rad)'
+            })
+            console.log(arrw.attributes[1].nodeValue = "/imgs/trailer button close.png");
             tease.innerHTML = "CLOSE TEASER"
         }
 

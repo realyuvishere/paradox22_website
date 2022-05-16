@@ -183,6 +183,7 @@ main {
         .page_title {
             text-align: center;
             font-size: 2.5rem;
+            position: relative;
             font-family: 'Alata';
             @media screen and (max-width: 768px) {
                 font-size: 2rem;
@@ -210,11 +211,14 @@ main {
             border-radius: 10px;
             backdrop-filter: blur(16px) saturate(180%);
             -webkit-backdrop-filter: blur(16px) saturate(180%);
-            background-color: rgba(0, 0, 0, 0.75);
+            background-color: rgba(0, 0, 0, 0.6);
             &-nav {
                 width: 30%;
                 padding: 1rem;
                 overflow-y: scroll;
+                &::-webkit-scrollbar{
+                    display: none;
+                }
                 @media screen and (max-width: 768px) {
                     overflow-y: initial;
                 }
@@ -250,6 +254,9 @@ main {
                 }
             }
             &-content {
+                &::-webkit-scrollbar{
+                    display: none;
+                }
                 padding: 1.5rem;
                 overflow-y: scroll;
                 width: 100%;

@@ -21,16 +21,31 @@ app.get('/events', (req, res) =>{
   res.render('events.ejs')
 })
 
-app.get('/events/sports', (req, res) =>{
-  res.render('./events/index.ejs', {data: sports, title: 'Sports'})
+app.get('/events/sports', (req, res) => {
+  const payload = {
+    data: sports,
+    title: 'Sports',
+    bg: 'https://images.unsplash.com/photo-1593134094419-a522daae3c63?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ'
+  }
+  res.render('./events/index.ejs', payload)
 })
 
 app.get('/events/cultural', (req, res) =>{
-  res.render('./events/index.ejs', {data: cultural, title: 'Cultural'})
+  const payload = {
+    data: cultural,
+    title: 'Cultural',
+    bg: 'https://images.unsplash.com/photo-1533903345306-15d1c30952de?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ'
+  }
+  res.render('./events/index.ejs', payload)
 })
 
 app.get('/events/professional', (req, res) =>{
-  res.render('./events/index.ejs', {data: professional, title: 'Professional'})
+  const payload = {
+    data: professional,
+    title: 'Professional',
+    bg: 'https://images.unsplash.com/photo-1589700329490-73e2a07a9c51?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ'
+  }
+  res.render('./events/index.ejs', payload)
 })
 
 app.get('/sessions-workshops', (req, res) =>{

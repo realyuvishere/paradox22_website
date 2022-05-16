@@ -56,8 +56,10 @@
     width: 60%;
     align-self: center;
 }
-.sp1 img{
-
+.sp a, .sp1 a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 .rows1{
     grid-template-columns:1fr 1fr;

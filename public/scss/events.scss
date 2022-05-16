@@ -269,6 +269,18 @@ main {
                     }
                     &-text {
                         padding: 1rem;
+                        font-family: 'Work Sans', sans-serif;
+
+                        .event {
+                            &-venue, &-contacts, &-date, &-desc {
+                                font-family: 'Work Sans', 'Helvetica', sans-serif;
+                            }
+                            &-contacts {
+                                li {
+                                    word-wrap: break-word;
+                                }
+                            }
+                        }
                         .register-btn {
                             color: #C1C9F5;
                             border: 2px solid #C1C9F5;

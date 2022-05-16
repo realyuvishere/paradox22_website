@@ -10,7 +10,7 @@
                 <ul>
                     <% data.forEach((item, index) => { %>
                         <li>
-                            <button class="nav-item" data-event-tab-target="<%- item.title.split(' ')[0].toLocaleLowerCase() -%>" data-image="<%- title -%>/<%- item.imageID -%>"><%- item.title -%></button>
+                            <button class="nav-item" data-event-tab-target="<%- item.title.split(' ')[0].toLocaleLowerCase() -%>" data-image="<%- title.toLocaleLowerCase() -%>/<%- item.imageID -%>"><%- item.title -%></button>
                         </li>
                     <% }) %>
                 </ul>

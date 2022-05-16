@@ -42,6 +42,7 @@
 .rows2 div{
     border: 1px solid white;
     border-radius: 90px;
+    padding: 1rem;
 }
 .sp, .sp1{
     display:flex;

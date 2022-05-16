@@ -386,7 +386,8 @@ a .about {
     color:black;
     font-family: 'Josefin Slab', sans-serif;
 }
-a{
+a {
+    color: #fff;
     text-decoration: none;
 }
 
@@ -413,6 +414,7 @@ a{
     background-color: #C1C9F5;
     height: 100vh;
     z-index: 18;
+    top: 0;
 }
 
 #leftbox::after {
@@ -460,6 +462,7 @@ a{
     background-color: #14085E;
     height: 100vh;
     z-index: 11;
+    top: 0;
 }
 
 #liteleftbox {
@@ -470,6 +473,7 @@ a{
     /* background-color:rgba(255, 0, 0, .4); */
     height: 100vh;
     z-index: 11;
+    top: 0;
 }
 
 #literightbox {
@@ -481,6 +485,7 @@ a{
     /* background-color:rgba(0, 255, 0, .4); */
     height: 100vh;
     z-index: 11;
+    top: 0;
 }
 
 .arrw {

@@ -213,6 +213,9 @@ main {
                 width: 30%;
                 padding: 1rem;
                 overflow-y: scroll;
+                @media screen and (max-width: 768px) {
+                    overflow-y: initial;
+                }
                 &-items {
                     ul {
                         list-style-type: none;
@@ -236,6 +239,9 @@ main {
                             &:hover {
                                 color: #222;
                                 background-color: #F0F0F0;
+                            }
+                            @media screen and (max-width: 768px) {
+                                width: max-content;
                             }
                         }
                     }

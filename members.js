@@ -26,7 +26,7 @@ const festteam = [
     {
         name: 'Srivinay Shridhar',
         tagline: 'Love football, but love food more',
-        image: 'https://i.imgur.com/dYj7G0A.jpg',
+        image: 'https://i.imgur.com/n4oDgrE.jpg',
         studentId: '21f1006569',
         social: {
             linkedin: 'https://www.linkedin.com/in/srivinays',
@@ -38,7 +38,7 @@ const festteam = [
     {
         name: 'Vibhore Agarwal',
         tagline: '',
-        image: 'https://i.imgur.com/XMjmMic.jpg',
+        image: 'https://i.imgur.com/VUp2dYk.jpg',
         studentId: '21f1004126',
         social: {
             linkedin: 'https://www.linkedin.com/in/vibhore-agrawal',
@@ -53,7 +53,7 @@ const webteam = [
     {
         name: 'Yuvraj Sharma',
         tagline: 'Can play music, Can write code, Can click pictures, Can make food and videos but Can\'t dance',
-        image: 'https://i.imgur.com/GgzPw9s.jpg',
+        image: 'https://i.imgur.com/Bgy4G7m.jpg',
         studentId: '21f3000180',
         social: {
             linkedin: 'https://www.linkedin.com/in/yuvishere',
@@ -79,7 +79,7 @@ const webteam = [
     {
         name: 'Ashwin Hebbar',
         tagline: 'No point really, it\'s a circle',
-        image: 'https://i.imgur.com/1lBkELv.jpg',
+        image: 'https://i.imgur.com/NhCJHBF.jpg',
         studentId: '21f1003155',
         social: {
             linkedin: 'https://www.linkedin.com/in/ashwin-hebbar/',
@@ -105,7 +105,7 @@ const webteam = [
     {
         name: 'Harshanand Sharma',
         tagline: 'Sometimes Devil is better than Evil',
-        image: 'https://i.imgur.com/Zq2pWWo.jpg',
+        image: 'https://i.imgur.com/NVQ6Ev3.jpg',
         studentId: '21f3000881',
         social: {
             linkedin: 'https://www.linkedin.com/in/harshanand-sharma-13354b151/',
@@ -117,7 +117,7 @@ const webteam = [
     {
         name: 'Hetav Chauhan',
         tagline: 'Process more important than result.',
-        image: 'https://i.imgur.com/rhC0zQK.jpg',
+        image: 'https://i.imgur.com/sVLDBYR.jpg',
         studentId: '22f1000101',
         social: {
             linkedin: 'https://www.linkedin.com/in/hetav-chauhan',
@@ -130,7 +130,7 @@ const webteam = [
     {
         name: 'Ayush Kumar',
         tagline: 'I\'m a web developer, programmer, foody & likes travelling. I can\'t change the direction of wind, but adjust my sails to always reach my destination.',
-        image: 'https://i.imgur.com/WPTXo2h.jpg',
+        image: 'https://i.imgur.com/ofHiX3B.jpg',
         studentId: '21f3002911',
         social: {
             linkedin: 'https://www.linkedin.com/in/ayush838/',

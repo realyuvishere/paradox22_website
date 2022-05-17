@@ -483,10 +483,28 @@ a {
     width: 60vw;
     background-color: #14085E;
     height: 100vh;
-    z-index: 11;
+    z-index: 12;
     top: 0;
 }
-
+.iframe{
+    position: absolute;
+    top: 5.1em;
+    bottom: 0;
+    left: 0;
+    right:0;
+    margin:auto;
+    height: 60vh;
+    width: 40vw;
+}
+.link{
+    position: absolute;
+    top: 5em;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: fit-content;
+    z-index: 15;
+}
 #liteleftbox {
     position: fixed;
     left: -100%;
@@ -744,7 +762,6 @@ a {
         background-color: #C1C9F5;
         width: 100%;
     }
-
     #liteleftbox {
         width: 80%;
         background-color: rgba(193, 201, 245, .3);

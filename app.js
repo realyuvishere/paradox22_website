@@ -73,4 +73,16 @@ app.get('/contact-us', (req, res) =>{
 app.get('/exclusive', (req, res) =>{
   res.render('ann.ejs')
 })
+app.get('/abcdxyz', function(req, res){
+  var options = {
+      root: pubDir
+  };
+   
+  var fileName = 'a.html';
+  res.sendFile(fileName, options, function (err) {
+      if (err) {
+          next(err);
+      }
+  });
+});
 app.listen(port);

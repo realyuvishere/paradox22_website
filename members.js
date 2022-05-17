@@ -2,7 +2,7 @@ const festteam = [
     {
         name: 'Gokulakrishnan M',
         tagline: 'Man of action',
-        image: 'https://i.imgur.com/27NEgUP.jpg',
+        image: 'https://i.imgur.com/8XsHP1W.jpg',
         studentId: '21f1007026',
         social: {
             linkedin: 'https://www.linkedin.com/in/gurneet-bhuller',

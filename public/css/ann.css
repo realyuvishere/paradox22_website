@@ -21,7 +21,6 @@
     /* grid-template-columns: 1fr 1fr; */
     display: flex;
     justify-content: space-between;
-
     padding: 40px;
     align-content: center;
 }
@@ -39,6 +38,10 @@
     .inner-conte {
         display: block;
         text-align: center;
+        border: 1px solid #fff;
+    border-radius: 20px;
+    margin: 5px;
+    margin-bottom:35px;
     }
     .inner-conte .pic-exe, .inner-conte .cont-exe {
         width: 100%;
@@ -87,5 +90,11 @@
     }
     .pics-exe img{
         width:auto;
+    }
+    .pe-exe{
+        font-size: 0.8em;
+    }
+    .h2-exe{
+        font-size: 1.4em;
     }
 }

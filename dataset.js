@@ -117,6 +117,21 @@ const sports = [
             }
         ]
     },
+    {
+        title: "POD v/s Organizers Cricket Match",
+        url: '',
+        imageID: 'Cricket.jpg',
+        desc: "An exciting Cricket match between the POD Members(Faculty/Instructors) and the Fest Organizers (Students). This will be an exciting match!",
+        date: "21st May, 06:00am-8:30am",
+        venue: "21/05/2022 - Kendriya Vidyalaya",
+        contact: [
+            {
+                name: "Updated Soon",
+                email: "Updated Soon",
+            }
+        ]
+    }
+    
 ]
 
 const cultural = [

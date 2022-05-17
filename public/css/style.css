@@ -374,7 +374,7 @@ body::-webkit-scrollbar {
 } */
 
 #one {
-    background-color: red;
+    background-color: #000000;
     height: 100vh;
     width: 100vw;
     display: none;
@@ -392,7 +392,7 @@ body::-webkit-scrollbar {
     height: 30%;
     margin-left: 70px;
 }
-.abt, .timeline, .faq, .our-team{
+.menu-small a div {
     font-family: 'Raleway';
     font-size:1rem;
     color:black;
@@ -401,14 +401,6 @@ body::-webkit-scrollbar {
 }    
 .our-team{
     width:30vw;
-}
-a .home,
-a .contact,
-a .life,
-a .about, a .talks {
-    text-decoration: none;
-    color:black;
-    font-family: 'Josefin Slab', sans-serif;
 }
 a {
     color: #fff;
@@ -423,15 +415,13 @@ a {
     margin-left: 15px;
     font-family: 'Work Sans';
 }
-.home,
-.contact,
-.life,
-.about, .talks {
-    color: #f0f0f0;
+.menu a div {
     font-size: 50px;
     padding: 15px;
     margin-left: 50px;
-    font-family: 'Bon vivant', sans-serif;
+    text-decoration: none;
+    color:black;
+    font-family: 'Josefin Slab', sans-serif;
 }
 
 .col {
@@ -446,6 +436,7 @@ a {
     height: 100vh;
     z-index: 18;
     top: 0;
+    overflow: scroll;
 }
 
 #leftbox::after {

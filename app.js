@@ -1,5 +1,6 @@
 const express = require('express')
 const dotenv = require('dotenv')
+const fs = require('fs')
 const {sports, cultural, professional} = require('./dataset')
 const {webteam, festteam} = require('./members')
 dotenv.config()
@@ -70,19 +71,23 @@ app.get('/our-team', (req, res) =>{
 app.get('/contact-us', (req, res) =>{
   res.render('contact-us')
 })
-app.get('/exclusive', (req, res) =>{
-  res.render('ann.ejs')
+app.get('/exclusive', (req, res) => {
+  const jsoncontents = fs.readFileSync('./announcements.json')
+  res.render('ann.ejs', {data: JSON.parse(jsoncontents.toLocaleString())})
+})
+app.get('/announcements/latest', (req, res) => {
+  const jsoncontents = fs.readFileSync('./announcements.json')
+  res.status(200).send({data: JSON.parse(jsoncontents.toLocaleString())})
 })
 app.get('/abcdxyz', function(req, res){
   var options = {
       root: pubDir
-  };
-   
-  var fileName = 'a.html';
+  }
+  var fileName = 'a.html'
   res.sendFile(fileName, options, function (err) {
       if (err) {
-          next(err);
+          next(err)
       }
-  });
-});
-app.listen(port);
+  })
+})
+app.listen(port)

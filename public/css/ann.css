@@ -13,9 +13,25 @@
     justify-items: center;
     align-content: center;
 }
+.the-link{
+    font-family: 'Work Sans';
+}
+.inner-conte{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 40px;
+    align-content: center;
+}
 .pic-exe img{
     width:400px;
-    height:200px;
+    height:400px;
+}
+.pic-exe{
+    justify-self: center;
+    align-self: center;
+}
+.pe-exe{
+    font-weight: bold;
 }
 @media only screen and (max-width: 912px){
     .inner-cont{
@@ -26,6 +42,12 @@
     .inner-cont{
         grid-template-columns:1fr;
         padding: 0;
+    }
+    .inner-conte{
+        grid-template-columns:1fr;
+        padding: 0;
+        justify-items: center;
+        align-content: center;
     }
     .pic-exe img{
         width:auto;

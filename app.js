@@ -79,15 +79,7 @@ app.get('/announcements/latest', (req, res) => {
   const jsoncontents = fs.readFileSync('./announcements.json')
   res.status(200).send({data: JSON.parse(jsoncontents.toLocaleString())})
 })
-app.get('/abcdxyz', function(req, res){
-  var options = {
-      root: pubDir
-  }
-  var fileName = 'a.html'
-  res.sendFile(fileName, options, function (err) {
-      if (err) {
-          next(err)
-      }
-  })
+app.get('/talks', (req, res) => {
+  res.render('talk')
 })
 app.listen(port)

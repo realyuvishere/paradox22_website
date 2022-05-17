@@ -29,6 +29,7 @@ const timeline = document.querySelector('.timeline')
 const faq = document.querySelector('.faq')
 const logo = document.querySelector('.logo')
 const head = document.querySelector('.header-para')
+const talks = document.querySelector('.talks')
 if(window.location.pathname.search('/sessions-workshops') > -1){
     contact.classList.add('colr')
 }
@@ -38,6 +39,9 @@ if(window.location.pathname === '/'){
 }
 if(window.location.pathname.search('/sponsors') > -1){
     life.classList.add('colr')
+}
+if(window.location.pathname.search('/talks') > -1){
+    talks.classList.add('colr')
 }
 if(window.location.pathname.search('/events') > -1){
     about.classList.add('colr')

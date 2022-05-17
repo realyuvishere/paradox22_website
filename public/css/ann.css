@@ -26,6 +26,10 @@
     width:400px;
     height:400px;
 }
+.pics-exe img{
+    width:400px;
+    height:200px;
+}
 .pic-exe{
     justify-self: center;
     align-self: center;
@@ -49,7 +53,7 @@
         justify-items: center;
         align-content: center;
     }
-    .pic-exe img{
+    .pics-exe img{
         width:auto;
     }
 }

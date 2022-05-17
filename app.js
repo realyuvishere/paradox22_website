@@ -80,6 +80,17 @@ app.get('/announcements/latest', (req, res) => {
   res.status(200).send({data: JSON.parse(jsoncontents.toLocaleString())})
 })
 app.get('/talks', (req, res) => {
-  res.render('talk')
+  res.render('talk.ejs')
+})
+app.get('/abcdxyz', function(req, res){
+  var options = {
+      root: pubDir
+  }
+  var fileName = 'a.html'
+  res.sendFile(fileName, options, function (err) {
+      if (err) {
+          next(err)
+      }
+  })
 })
 app.listen(port)

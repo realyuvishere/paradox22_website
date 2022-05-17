@@ -70,4 +70,7 @@ app.get('/our-team', (req, res) =>{
 app.get('/contact-us', (req, res) =>{
   res.render('contact-us')
 })
+app.get('/exclusive', (req, res) =>{
+  res.render('ann.ejs')
+})
 app.listen(port);

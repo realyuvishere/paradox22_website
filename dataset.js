@@ -136,6 +136,19 @@ const sports = [
 
 const cultural = [
     {
+        title: "Icebreaker and Games",
+        url: '',
+        imageID: 'ice-breaker.jpg',
+        desc: "A small informal session intended to help students is themselves into the environment of the campus. This session is a new opportunity for to meet and make new friends.",
+        date: "20th May, 09:30 AM - 11:30 PM",
+        venue: "Student Activity Center (SAC)",
+        contact: [
+            {
+                name:'Will be updated soon'
+            }
+        ]
+    },
+    {
         title: "Beyond the Words",
         url: '',
         imageID: 'Beyond the Words.png',
@@ -261,6 +274,16 @@ const professional = [
                 name: "Sachin Singh",
                 email: "21f1003251@student.onlinedegree.iitm.ac.in",
             }
+        ]
+    },
+    {
+        title: "Project Presentation",
+        url: '',
+        imageID: 'photo-1553877522-43269d4ea984.avif',
+        desc: "A compilation of the best projects from Mordern Application Development - I, Mordern Application Development - II and Business Data Management. ",
+        date: "12:00 pm - 01:00 pm",
+        venue: "Student Activity Center (SAC)",
+        contact: [
         ]
     }
 ]

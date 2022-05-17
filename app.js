@@ -65,9 +65,9 @@ app.get('/about', (req, res) =>{
 app.get('/faq', (req, res) =>{
   res.render('faq.ejs')
 })
-app.get('/our-team', (req, res) =>{
-  res.render('our-team.ejs', {fest: festteam, web: webteam})
-})
+// app.get('/our-team', (req, res) =>{
+//   res.render('our-team.ejs', {fest: festteam, web: webteam})
+// })
 app.get('/contact-us', (req, res) =>{
   res.render('contact-us')
 })

@@ -35,6 +35,8 @@ const festteam = [
             facebook: '',
         },
     },
+
+
     {
         name: 'Vibhore Agarwal',
         tagline: 'Social butterfly your introverted friend warned you about',
@@ -64,7 +66,7 @@ const webteam = [
         },
     },
     {
-        name: 'S Manish',
+        name: 'Manish Suresh',
         tagline: 'Just a bLanK homosapien',
         image: 'https://i.imgur.com/ACjINOF.jpg',
         studentId: '21f3002911',
@@ -129,7 +131,7 @@ const webteam = [
     },
     {
         name: 'Ayush Kumar',
-        tagline: 'I\'m a web developer, programmer, foody & likes travelling. I can\'t change the direction of wind, but adjust my sails to always reach my destination.',
+        tagline: 'I can\'t change the direction of wind, but adjust my sails to always reach my destination.',
         image: 'https://i.imgur.com/1hjsAnz.jpg',
         studentId: '21f3002911',
         social: {
@@ -155,7 +157,7 @@ const webteam = [
     },
     {
         name: 'Nikhil Isaac',
-        tagline: 'Process more important than result.',
+        tagline: 'Just following the code.',
         image: 'https://i.imgur.com/u3Cwx4V.jpg',
         studentId: '21f1000048',
         social: {

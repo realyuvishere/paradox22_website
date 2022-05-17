@@ -16,15 +16,47 @@
 .the-link{
     font-family: 'Work Sans';
 }
-.inner-conte{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+.inner-conte {
+    /* display: grid; */
+    /* grid-template-columns: 1fr 1fr; */
+    display: flex;
+    justify-content: space-between;
+
     padding: 40px;
     align-content: center;
 }
-.pic-exe img{
+
+.inner-conte .pic-exe {
+    display: flex;
+    justify-content: center;
+}
+
+.inner-conte .pic-exe, .inner-conte .cont-exe {
+    width: 50%;
+}
+
+@media only screen and (max-width: 768px) {
+    .inner-conte {
+        display: block;
+        text-align: center;
+    }
+    .inner-conte .pic-exe, .inner-conte .cont-exe {
+        width: 100%;
+    }
+    .inner-conte .pic-exe p, .inner-conte .cont-exe p {
+        text-align: left;
+        padding: 1rem;
+    }
+}
+
+/* .pic-exe img{
     width:400px;
     height:400px;
+} */
+.inner-conte img{
+    width: 100%;
+    max-width: 300px;
+    height: auto;
 }
 .pics-exe img{
     width:400px;

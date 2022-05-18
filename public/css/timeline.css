@@ -1,3 +1,8 @@
+#timeline {
+    padding: 2rem;
+    text-align: center;
+}
+
 .desktop {
     display: block;
 }
@@ -12,8 +17,8 @@ body {
 }
 
 .spoop {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    /* display: grid; */
+    /* grid-template-columns: 1fr 1fr; */
     padding-top:6em;
     padding-bottom:3em;
     margin-bottom: 0px;
@@ -23,9 +28,9 @@ body {
     font-size: 6em;
     text-align: center;
     line-height: 1.35em;
-    transform: rotate(0deg);
+    /* transform: rotate(0deg);
     align-self: center;
-    justify-self: center;
+    justify-self: center; */
     margin-bottom:0;
 }
 

@@ -215,11 +215,11 @@ const cultural = [{
         venue: "Preliminary Round - 20/05/2022 <br> FINALE - 21/05/2022 - Student Activity Center (SAC)",
         contact: [{
                 name: "Shubham Kumar",
-                email: "21f3000285@student.onlinedegree.iitm.ac.in",
+                email: "21F3003249@student.onlinedegree.iitm.ac.in",
             },
             {
                 name: "Ayush Rai",
-                email: "21f3003249@student.onlinedegree.iitm.ac.in",
+                email: "21f3000285@student.onlinedegree.iitm.ac.in",
             },
             {
                 name: "R Ashwin [Cultural Events Head]",

@@ -11,7 +11,7 @@
     },
     {
         "title": "Event agenda has been updated",
-        "desc": "Catch the latest version here: ",
+        "desc": "<a href='/timeline' target='_parent'>Catch the latest version here</a>",
         "image": ""
     }
 ]

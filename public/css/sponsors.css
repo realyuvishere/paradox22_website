@@ -39,11 +39,11 @@
     width: 80%;
 
 }
-.rows2 div{
+/* .rows2 div{
     border: 1px solid white;
     border-radius: 90px;
     padding: 1rem;
-}
+} */
 .sp, .sp1{
     display:flex;
     justify-content: center;
@@ -71,7 +71,7 @@
 }
 
 .pad-5 {
-    padding: 2rem;
+    padding: .75rem;
 }
 
 

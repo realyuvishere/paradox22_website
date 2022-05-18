@@ -50,8 +50,9 @@ app.get('/events/professional', (req, res) =>{
   res.render('./events/index.ejs', payload)
 })
 
-app.get('/sessions-workshops', (req, res) =>{
-  res.render('sesh.ejs')
+app.get('/sessions-workshops', (req, res) => {
+  const jsoncontents = fs.readFileSync('./sessions.json')
+  res.render('sesh.ejs', {data: JSON.parse(jsoncontents.toLocaleString())})
 })
 // app.get('/events/culturals/beyond-the-words', (req, res) =>{
 //   res.render('./events/culturals/beyond-the-words.ejs')

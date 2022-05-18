@@ -1,0 +1,82 @@
+[
+    {
+        "type": "SESSION",
+        "title": "<b>[ Day 1 ]</b> BSc student workflow application and Seek application",
+        "desc": "A session with the course instructors MAD I and MAD II and the developers of the BSc Student workflow and Seek Application. This will be a discussion and an interactive session.",
+        "date": "20th May 2022",
+        "time": "11:30 AM to 1:00 PM",
+        "speakers": "Thejesh GN, Tushar Jangle (Lead Architect) and Ashish Thool (Development Team Lead)"
+    },
+    {
+        "type": "WORKSHOP",
+        "title": "<b>[ Day 1 ]</b> Introduction to Network Biology",
+        "desc": "In this workshop, participants will be introduced to the exciting science of networks, and how they find far-reaching applications in biology. Do you know, that the same algorithms used to suggest friends in Facebook, are also useful in biology, to predict which proteins will interact? How do diseases such as COVID permeate through social contact networks? What are the groups of proteins that are involved in a disease? How can we identify novel pathways to synthesis drugs and other chemicals",
+        "date": "20th May 2022",
+        "time": "2:00 PM to 4:00 PM",
+        "speakers": "Professor Karthik Raman"
+    },
+    {
+        "type": "WORKSHOP",
+        "title": "<b>[ Day 1 ]</b> Machine Learning in Medical Imaging",
+        "desc": "The session will provide an introduction to problems in medical image analysis. Students will learn about different types of medical imaging systems and the types of images acquired using the same. They will learn how techniques in linear algebra, statistics and ML can be applied to solve problems arising in medical imaging analysis.",
+        "date": "20th May 2022",
+        "time": "2:00 PM to 4:00 PM",
+        "speakers": "Professor Ganapathy"
+    },
+    {
+        "type": "WORKSHOP",
+        "title": "<b>[ Day 1 ]</b> The Power of Pipelines",
+        "desc": "A core element of the Unix philosophy is to favour simple and modular programs that can then be used to compose larger and more complex programs by constructing so-called \"pipelines\". This basic idea can be generalized to the concept of task graphs and scheduling, which has applications across several domains of interest. This also leads to interesting applications of the ideas of functional programming and analysis.</p><p>In this talk, we will look at several examples of how the concept of pipelines can be generalized from the command line all the way to the design of high performance hardware, and present some pointers for further study.",
+        "date": "20th May 2022",
+        "time": "2:00 PM to 4:00 PM",
+        "speakers": "Professor Nitin C."
+    },
+    {
+        "type": "WORKSHOP",
+        "title": "<b>[ Day 1 ]</b> Learning Analytics: Aplcn. of LA in Higher Education",
+        "desc": "In this talk, we introduce how to apply data analytics in the education domain. We will provide an overview of how Artificial Intelligence and Machine Learning Algorithms can be applied to the data from the educational domain to provide better teaching-learning experiences. We will explore a few examples of how learning analytics can be applied to data from different learning environments like classrooms, and online and intelligent tutoring systems. In the end, we will discuss the research works in LA at ET-IITB.",
+        "date": "20th May 2022",
+        "time": "2:00 PM to 4:00 PM",
+        "speakers": "Professor Ramkumar Rajendran"
+    },
+    {
+        "type": "WORKSHOP",
+        "title": "<b>[ Day 1 ]</b> Experimentation in machine Learning",
+        "desc": "Details Coming soon!!",
+        "date": "20th May 2022",
+        "time": "2:00 PM to 4:00 PM",
+        "speakers": "Professor Nanda Sudarshan"
+    },
+    {
+        "type": "WORKSHOP",
+        "title": "<b>[ Day 2 ]</b> Solving Puzzles with Python",
+        "desc": "We will discuss some fun puzzles and see how scripting can help with making progress on a problem — by generating examples/simulations to discover patterns and develop our intuition.",
+        "date": "21st May 2022",
+        "time": "2:00 PM to 4:00 PM",
+        "speakers": "Professor Neeldhara"
+    },
+    {
+        "type": "WORKSHOP",
+        "title": "<b>[ Day 2 ]</b> Machine Learning in Jax",
+        "desc": "As part of this workshop, we will cover Jax, which is a machine learning library developed by Google. JAX is NumPy on the CPU, GPU, and TPU, with great automatic differentiation for high-performance machine learning research. We will learn the basics of the Jax API. We will train a neural network model written in Jax as part of hands-on experience of this workshop. We will also implement logistic regression from scratch.</p><p>You need to bring your laptop for hands-on exercises in the workshop. We will use colab as a front end for coding.",
+        "date": "21st May 2022",
+        "time": "2:00 PM to 4:00 PM",
+        "speakers": "Professor Ashish Tendulkar"
+    },
+    {
+        "type": "WORKSHOP",
+        "title": "<b>[ Day 2 ]</b> EigenFaces: Dimensionality Matters in Machine Learning",
+        "desc": "The short workshop will introduce the idea of representation learning and discuss the mathematics behind a classical algorithm called principal component analysis. As a concrete real world application, the algorithm's performance on a face detection problem will be explained.",
+        "date": "21st May 2022",
+        "time": "2:00 PM to 4:00 PM",
+        "speakers": "Professor Arun Rajkumar"
+    },
+    {
+        "type": "WORKSHOP",
+        "title": "<b>[ Day 2 ]</b> The Wisdom of the Many: Ensemble Methods in Machine Learning",
+        "desc": "Machine learning has enabled a rediscovery of an old adage. Combining multiple \"weaker\" models is often far superior to complex models. This manifests in two distinct ways: 1. Parallel learning of individual weak models combined via majority voting, 2. Sequential learning of weak models, each additional model focusing on the weaknesses of previous models. We will take an elementary peek into both these paradigms, in which multiple models are combined to make a more powerful model.",
+        "date": "21st May 2022",
+        "time": "2:00 PM to 4:00 PM",
+        "speakers": "Professor Harish Guruprasad"
+    }
+]

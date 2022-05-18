@@ -5,10 +5,20 @@ const sports = [{
         desc: "Tired? Refresh with <b>Badminton</b>. It is a fast-pace, fun workout game that offers big rewards to players of all ages. We plan to host Doubles and mixed doubles based on the preference of the participants. Each game will be of 21 pointers of single set.",
         date: "20th May, 06:00am-10:00am",
         venue: "20/05/2022 - SAC",
-        contact: [{
-            name: "Rahul jaiswal",
-            email: "21f1003040@student.onlinedegree.iitm.ac.in",
-        }]
+        contact: [
+            {
+                name: "Rahul jaiswal",
+                email: "21f1003040@student.onlinedegree.iitm.ac.in",
+            },
+            {
+                name: "Pranjal Choudhary [Sports Events Head]",
+                email: "21f1006904@student.onlinedegree.iitm.ac.in"
+            }, 
+            {
+                name: "Sivasurya [Sports Event Co-Head]",
+                email: "21f1006711@student.onlinedegree.iitm.ac.in"
+            }
+        ]
     },
     {
         title: 'Basketball',
@@ -20,6 +30,14 @@ const sports = [{
         contact: [{
             name: "Uday Agrawal",
             email: "21f3001708@student.onlinedegree.iitm.ac.in",
+        },
+        {
+            name: "Pranjal Choudhary [Sports Events Head]",
+            email: "21f1006904@student.onlinedegree.iitm.ac.in"
+        }, 
+        {
+            name: "Sivasurya [Sports Event Co-Head]",
+            email: "21f1006711@student.onlinedegree.iitm.ac.in"
         }]
     },
     {
@@ -36,6 +54,14 @@ const sports = [{
             {
                 name: "Sachin Pandey",
                 email: "21f2001009@student.onlinedegree.iitm.ac.in",
+            },
+            {
+                name: "Pranjal Choudhary [Sports Events Head]",
+                email: "21f1006904@student.onlinedegree.iitm.ac.in"
+            }, 
+            {
+                name: "Sivasurya [Sports Event Co-Head]",
+                email: "21f1006711@student.onlinedegree.iitm.ac.in"
             }
         ]
     },
@@ -63,8 +89,16 @@ const sports = [{
                 email: "21f3003023@student.onlinedegree.iitm.ac.in",
             },
             {
-                name: "Somsankar Chakraborty",
+                name: "Soumyabrata Mahapatra",
                 email: "21f1003070@student.onlinedegree.iitm.ac.in",
+            },
+            {
+                name: "Pranjal Choudhary [Sports Events Head]",
+                email: "21f1006904@student.onlinedegree.iitm.ac.in"
+            }, 
+            {
+                name: "Sivasurya [Sports Event Co-Head]",
+                email: "21f1006711@student.onlinedegree.iitm.ac.in"
             }
         ]
     },
@@ -82,6 +116,14 @@ const sports = [{
             {
                 name: "Akansha Gautam",
                 email: "21f1006228@student.onlinedegree.iitm.ac.in",
+            },
+            {
+                name: "Pranjal Choudhary [Sports Events Head]",
+                email: "21f1006904@student.onlinedegree.iitm.ac.in"
+            }, 
+            {
+                name: "Sivasurya [Sports Event Co-Head]",
+                email: "21f1006711@student.onlinedegree.iitm.ac.in"
             }
         ]
     },
@@ -103,6 +145,14 @@ const sports = [{
             {
                 name: "Sameer Phaniraj Kumble",
                 email: "21f3001645@student.onlinedegree.iitm.ac.in",
+            },
+            {
+                name: "Pranjal Choudhary [Sports Events Head]",
+                email: "21f1006904@student.onlinedegree.iitm.ac.in"
+            }, 
+            {
+                name: "Sivasurya [Sports Event Co-Head]",
+                email: "21f1006711@student.onlinedegree.iitm.ac.in"
             }
         ]
     },
@@ -113,10 +163,16 @@ const sports = [{
         desc: "An exciting Cricket match between the POD Members(Faculty/Instructors) and the Fest Organizers (Students). This will be an exciting match!",
         date: "21st May, 06:00am-8:30am",
         venue: "21/05/2022 - Kendriya Vidyalaya",
-        contact: [{
-            name: "Updated Soon",
-            email: "Updated Soon",
-        }]
+        contact: [
+            {
+                name: "Pranjal Choudhary [Sports Events Head]",
+                email: "21f1006904@student.onlinedegree.iitm.ac.in"
+            }, 
+            {
+                name: "Sivasurya [Sports Event Co-Head]",
+                email: "21f1006711@student.onlinedegree.iitm.ac.in"
+            }
+        ]
     },
     {
         title: "Football 5s",
@@ -125,15 +181,16 @@ const sports = [{
         desc: "Rules: <br> 1. Only 5 + 3 Players in each team, if found to have more then the team will be disqualified.<br>2. No offsides.<br>3. Match duration - prior to semi-final : 7-1-7 Mins | Semi-Finals : 10-5-10 Mins | Finals : 15-10-15<br>4. Subs on the fly(rolling substitution).<br> 5. No goalkeeper punts, the ball must stay below head height, otherwise possession and a free kick will be awarded to the opposing team.<br>6. No slide tackles, players must not go to ground to steal possession back.<br>7. The Referee's decision is final.<br><br>8. If match ends in tie:<br> &nbsp;&nbsp;&nbsp; a. 3 penalties each team (from playing 5); if still tied:<br> &nbsp;&nbsp;&nbsp; b. Open goal from half line, sudden death. (From playing 5)<br> &nbsp;&nbsp;&nbsp; c. Iff open goal crosses more than 8 kicks, Toss will decide the winners.<br> <br>9. Penalty rules:<br>&nbsp;&nbsp;&nbsp; a. One step kick. One leg is placed near/ next to the ball and the other one is swung to takethe kick.<br>&nbsp;&nbsp;&nbsp; b. No fake shots or misguidences through actions.<br>&nbsp;&nbsp;&nbsp; c. Free kicks and corners the opposing team has to be minimum of 5 yards away from theball.<br><br>10. Goalkeeper rules:<br>a. PENALTY RULES:<br>&nbsp;&nbsp;&nbsp; i. Should stand on the goalpost line.<br>&nbsp;&nbsp;&nbsp; ii. Cannot cross the line before the shooter kicks the ball<br><br>11. Side outs -<br>&nbsp;&nbsp;&nbsp; a. No Throw-ins from the sidelines. Instead the ball is placed on ground and passed in to ateammate with the foot.<br>&nbsp;&nbsp;&nbsp; b. Pass should not be played above hip level.<br>&nbsp;&nbsp;&nbsp; c. No direct goal from side",
         date: "20th May, Time: 6:00 am to 10 :00 am",
         venue: "Venue: Near Chemplast Ground, IITM",
-        contact: [{
-            name: "Chhayank Thakur",
-            email: "21f3002924@student.onlinedegree.iitm.ac.in",
-        },
-        {
-            name: "Krishna Dubey",
-            email: "21f2000813@student.onlinedegree.iitm.ac.in",
-        }
-    ]
+        contact: [
+            {
+                name: "Chhayank Thakur",
+                email: "21f3002924@student.onlinedegree.iitm.ac.in",
+            },
+            {
+                name: "Krishna Dubey",
+                email: "21f2000813@student.onlinedegree.iitm.ac.in",
+            }
+        ]
     }
 
 ]
@@ -163,6 +220,10 @@ const cultural = [{
             {
                 name: "Ayush Rai",
                 email: "21f3003249@student.onlinedegree.iitm.ac.in",
+            },
+            {
+                name: "R Ashwin [Cultural Events Head]",
+                email: "21f3000426@student.onlinedegree.iitm.ac.in"
             }
         ]
     },
@@ -176,6 +237,10 @@ const cultural = [{
         contact: [{
             name: "Sampriti Raha",
             email: " 22f1000064@student.onlinedegree.iitm.ac.in",
+        },
+        {
+            name: "R Ashwin [Cultural Events Head]",
+            email: "21f3000426@student.onlinedegree.iitm.ac.in"
         }]
     },
     {
@@ -188,6 +253,10 @@ const cultural = [{
         contact: [{
             name: "Tanya Jha",
             email: "21f2001453@student.onlinedegree.iitm.ac.in",
+        },
+        {
+            name: "R Ashwin [Cultural Events Head]",
+            email: "21f3000426@student.onlinedegree.iitm.ac.in"
         }]
     },
     {
@@ -197,10 +266,12 @@ const cultural = [{
         desc: "Come on join the exciting Voyage of music melodies and madness from different genres, cultures and languages all united in one stage ready to take you on an amazing journey of euphoria, love, excitement, refreshment and what not..! <br> So buckle up and be a part of this mesmerizing journey.",
         date: "20th May, 08:00pm-10:00pm",
         venue: "20/05/2022 - Students Activity Center (SAC)",
-        contact: [{
-            name: "Will be updated Updated Soon, contact paradox support",
-            email: "Updated Soon, contact paradox support",
-        }]
+        contact: [
+            {
+                name: "R Ashwin [Cultural Events Head]",
+                email: "21f3000426@student.onlinedegree.iitm.ac.in"
+            }
+        ]
     },
     {
         title: "Qutopia",
@@ -216,6 +287,10 @@ const cultural = [{
             {
                 name: "Soumyabatra Mahapatra",
                 email: "21f1003070@student.onlinedegree.iitm.ac.in",
+            },
+            {
+                name: "R Ashwin [Cultural Events Head]",
+                email: "21f3000426@student.onlinedegree.iitm.ac.in"
             }
         ]
     },
@@ -229,6 +304,10 @@ const cultural = [{
         contact: [{
             name: "Mihir Gupta",
             email: "21f1001154@student.onlinedegree.iitm.ac.in",
+        },
+        {
+            name: "R Ashwin [Cultural Events Head]",
+            email: "21f3000426@student.onlinedegree.iitm.ac.in"
         }]
     }
 

@@ -70,6 +70,10 @@
     grid-gap: 25px;
 }
 
+.pad-5 {
+    padding: 2rem;
+}
+
 
 @media (max-width:768px) {
     #sponhead{

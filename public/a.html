@@ -23,11 +23,10 @@
     </head>
 
     <body>
-        <div class="exe-container" id="ann-cont">
+        <div class="exe-container" id="ann-cont" style="padding: 0;">
             <div class="exe-header">
                 <h1>Exclusive Announcements</h1>
             </div>
-            
         </div>
         <footer class="footer">
             <p>All rights reserved | Indian Institute of Technology Madras | Paradox 2022</p>
@@ -56,6 +55,7 @@
                 data.data.forEach((ann, index) => {
                     const mainDiv = document.createElement('div')
                     mainDiv.className = 'inner-cont'
+                    mainDiv.style.padding = "20px 40px"
                     // const picDiv = document.createElement('div')
                     // picDiv.className = 'pics-exe'
                     // const picImg = document.createElement('img')
@@ -65,6 +65,7 @@
                     const contH2 = document.createElement('h2')
                     contH2.className = 'h2-exe'
                     contH2.innerHTML = ann.title
+                    contH2.style.margin = 0
                     const contP = document.createElement('p')
                     contP.className = 'p-exe'
                     contP.innerHTML = ann.desc

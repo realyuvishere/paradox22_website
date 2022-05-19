@@ -319,7 +319,7 @@ const professional = [{
         imageID: 'theoutliers.jpg',
         desc: "Team Outliers - Entrepreneurship Workshop is coming out with an unique lineup of events in the IITM Paradox'22, the Annual Fest of the IITM BSc Degree Community. The whole Entrepreneurship Workshop will consist of two exciting episodes : The Conference & The Start-Up Showcase.<br><br>Focusing on the theme of Entrepreneurial Skills & Mindset, we are inviting registrations for The Conference. The whole episode consists of talk and interaction with Prof. G Venkatesh (Professor of Practice at IITM, Director of Sasken Technologies Limited, CEO of Mylspot Education Services), one-on-one Q&A session with the audience and much more.<br><br>Participation E-certificates will be provided from the Entrepreneurship Workshop team.<br><br><a href=\"https://docs.google.com/document/d/1Ps436ykngnPeDhXIw1RRoUwfWxeAsb4ZUXt2PBev56c/edit\" target=\"_blank\"><b>Click here for more details<b></a>",
         date: "20th May, 2022, 2:00 pm to 4:00 pm",
-        venue: "SAC",
+        venue: "Biotech Seminar Hall",
         contact: [{
             name: "Sankalp Arora",
             email: "21f1004054@student.onlinedegree.iitm.ac.in",

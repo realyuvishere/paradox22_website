@@ -1,0 +1,31 @@
+<%-include('./partials/header.ejs') %>
+    <!-- <div class="sesh-pre">
+        <img src="./Title 09.gif" alt="preloader">
+    </div> -->
+    <!-- <div id="preloader">
+        <div class="curtain"></div>
+    </div> -->
+        <!-- <div class="heading block-reveal">
+            <span class="text-reveal">Text reveal effect</span>
+        </div> -->
+    <div class="wrapper">
+        <% data.forEach((item, index) => { %>
+            <section class="section sticky">
+                <!-- <div class="sticky-container"> -->
+                    <img src="/imgs/sessions/<%-index-%>.jpg" />
+                    <div class="gridview">
+                        <h1 class="<%- item.type.toLocaleLowerCase() -%>"><%- item.type -%></h1>
+                        <div class="section-body">
+                            <h1><%- item.title -%></h1>
+                            <p><%- item.desc -%></p>
+                            <p><b>Date:</b> <%- item.date -%></p> 
+                            <p><b>Time:</b> <%- item.time -%></p> 
+                            <h3> - By <%- item.speakers -%></h3>
+                        </div>
+                    </div>
+                <!-- </div> -->
+            </section>
+        <% }) %>
+    </div>
+
+    <%-include('./partials/footer.ejs') %>

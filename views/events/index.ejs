@@ -1,0 +1,59 @@
+<%-include('../partials/header.ejs') %>
+
+<link rel="stylesheet" href="/css/events.css">
+<main id="event">
+    
+    <div id="dynamic_bg" style="background-image: url('<%- bg -%>');"></div>
+    <h1 class="page_title"><%- title -%></h1>
+    <div class="theater">
+        
+        <div class="theater-nav">
+            
+            <div class="theater-nav-items">
+                <ul>
+                    <% data.forEach((item, index) => { %>
+                        <li>
+                            <button class="nav-item" data-event-tab-target="<%- item.title.split(' ')[0].toLocaleLowerCase() -%>" data-image="<%- title.toLocaleLowerCase() -%>/<%- item.imageID -%>"><%- item.title -%></button>
+                        </li>
+                    <% }) %>
+                </ul>
+            </div>
+        </div>
+        <div class="theater-content">
+            <% data.forEach((item, index) => { %>
+                <div class="theater-content-body" id="<%- item.title.split(' ')[0].toLocaleLowerCase() -%>" data-event-tab-content>
+                    <div class="theater-content-body-title">
+                        <h2><%- item.title -%></h2>
+                    </div>
+                    <div class="theater-content-body-text">
+                        <h3>Rules</h3>
+                        <p class="event-desc"><%- item.desc -%></p>
+
+                        <h3>Date & Time</h3>
+                        <div class="event-date"><%- item.date -%></div>
+
+                        <h3>Venue</h3>
+                        <div class="event-venue"><%- item.venue -%></div>
+
+                        <h3>Contact</h3>
+                        <ul class="event-contacts">
+                            <% item.contact.forEach((item, index) => { %>
+                                <li><%- item.name -%> ( <%- item.email -%> )</li>
+                            <% }) %>
+                        </ul>
+
+                        <% if (item.url !== '') { %>
+                            <a class="register-btn" href="<%- item.url -%>" target="_blank">
+                                Register here <i class="fa fa-external-link"></i>
+                            </a>
+                        <% } else { %>
+                            <a class="register-btn disabled">Registerations closed</a>
+                        <% } %>
+                    </div>
+                </div>
+            <% }) %>
+        </div>
+    </div>
+</main>
+<script src="/js/events.js"></script>
+<%-include('../partials/footer.ejs') %>

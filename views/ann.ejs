@@ -1,0 +1,22 @@
+<%-include('./partials/header.ejs')%>
+
+<div class="exe-container">
+    <div class="exe-header">
+        <h1>Exclusive Announcements</h1>
+    </div>
+    <% data.forEach((item, index) => { %>
+        <div class="inner-cont">
+            <% if (item.image !== '') { %>
+                <div class="pics-exe">
+                    <img src="<%- item.image -%>" alt="Announcement <%- index+1 -%>">
+                </div>
+            <% } %>
+            <div class="cont-exe">
+                <h2 class="h2-exe"><%- item.title -%></h2>
+                <p class="p-exe"><%- item.desc -%></p>
+            </div>
+        </div>
+    <% }) %>
+</div>
+
+<%-include('./partials/footer.ejs')%>

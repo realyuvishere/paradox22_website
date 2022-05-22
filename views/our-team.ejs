@@ -1,0 +1,61 @@
+<%-include('./partials/header.ejs') %>
+<h1 class="noob">FEST HEADS</h1>
+<div class="main">
+  <% fest.forEach((item, index) => { %>
+    <% var namearr = item.name.split(' ') %>
+    <div class="container">
+      <div class="gradient" style="background-image: url('<%- item.image -%>')">
+        <div class="cont">
+          <h2>
+            <%- namearr[0] -%>
+            <br>
+            <% namearr.splice(0,1) %>
+            <%- namearr.join(' ') -%>
+          </h2>
+          <p><%- item.studentId -%></p>
+          <p class="details"><%- item.tagline -%></p>
+        </div>
+        <div class="icons">
+          <% var socials = Object.keys(item.social) %>
+          <% socials.forEach((platform) => { 
+              if (item.social[platform] !== '') {%>
+                <a href="<%- item.social[platform] -%>" target="_blank">
+                  <i class="fa fa-<%- platform -%>" aria-hidden="true"></i>
+                </a>
+          <% }}) %>
+        </div>
+      </div>
+    </div>
+  <% }) %>
+</div>
+<h1 class="king">WEBSITE TEAM</h1>
+<div class="main">
+  <% web.forEach((item, index) => { %>
+    <% var namearr = item.name.split(' ') %>
+    <div class="container">
+      <div class="gradient" style="background-image: url('<%- item.image -%>');">
+        <div class="cont">
+          <h2>
+            <%- namearr[0] -%>
+            <br>
+            <% namearr.splice(0,1) %>
+            <%- namearr.join(' ') -%>
+          </h2>
+          <p class="id-stud"><%- item.studentId -%></p>
+          <p class="details"><%- item.tagline -%></p>
+        </div>
+        <div class="icons">
+          <% var socials = Object.keys(item.social) %>
+          <% socials.forEach((platform) => { 
+              if (item.social[platform] !== '') {%>
+                <a href="<%- item.social[platform] -%>" target="_blank">
+                  <i class="fa fa-<%- platform -%>" aria-hidden="true"></i>
+                </a>
+          <% }}) %>
+        </div>
+      </div>
+    </div>
+  <% }) %>
+</div>
+<script src="/js/our-team.js"></script>
+<%-include('./partials/footer.ejs') %>
